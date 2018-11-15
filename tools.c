@@ -6,6 +6,7 @@
 #include "global.h"
 #include "tools.h"
 
+
 void bprintf( const byte_t Oc, const char * identifer, const int mode ) {
   static char buffer[9];
   int n;

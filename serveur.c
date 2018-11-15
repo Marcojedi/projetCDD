@@ -8,29 +8,28 @@
 #include "global.h"
 #include "tools.h"
 
-/**
-   @brief programme serveur
- */
+typedef unsigned char octet_t;
 
 int ascii_code(char c){ 
 	return c;
 }
 
 
-void serveur( int pipefd[2] ) {
-	
-  int i=0;
-  char buf[BUFSIZ];
-	int intATransmettre;
-  char * Id = (char*) calloc( 10, sizeof(char) );
+void serveur(char *src,int pipefd[2] ) {
+	char * mots[3840];
+  int i=0,nb_mot;
+  char buf[BUFSIZ]; char m;
+	static octet_t * Triplet = NULL;
+	if(!Triplet) Triplet = (octet_t*) malloc(3*sizeof(octet_t));
+
   close( pipefd[0] );		// Close unused read end
   FILE * fd;
-  fd = fopen("number.txt","r");
+  fd = fopen(src,"r");
   while(fgets(buf,BUFSIZ,fd)!=NULL){
-		while(buf[i]!='\n'){
-			intATransmettre = ascii_code(buf[i]);	
-			write( pipefd[1], &intATransmettre , 1 );//int bien transmis mais que sur 8 bits si intATransmettre > 255 ==> le nombre ecrit ne seraOK
-			i++;
+		while(buf[i]!='\n'){ //Recupère chaque lettre
+				m = buf[i];
+				write( pipefd[1], &m , 1 );
+				i++;
 		}
 		i=0;
   }

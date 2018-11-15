@@ -14,8 +14,7 @@
  * @brief le client lit les octet(signed char) que le serveur lui
  * envoie et les affiche.
  */
-void client( int pipefd[2] ) {
-
+void client(char * dest, int pipefd[2] ) {	
   byte_t Oc;
   int buf;
   char * Id = (char *) calloc( 10, sizeof(char) );
