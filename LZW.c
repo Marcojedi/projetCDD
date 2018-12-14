@@ -6,8 +6,10 @@
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+
+#include "LZW.h"
  
-/* -------- aux stuff ---------- */
+ /* -------- aux stuff ---------- */
 void* mem_alloc(size_t item_size, size_t n_item)
 {
   size_t *x = calloc(1, sizeof(size_t)*2 + n_item * item_size);
@@ -30,51 +32,9 @@ void _clear(void *m)
 {
   size_t *x = (size_t*)m - 2;
   memset(m, 0, x[0] * x[1]);
-}
- 
-#define _new(type, n) mem_alloc(sizeof(type), n)
-#define _del(m)   { free((size_t*)(m) - 2); m = 0; }
-#define _len(m)   *((size_t*)m - 1)
-#define _setsize(m, n)  m = mem_extend(m, n)
-#define _extend(m)  m = mem_extend(m, _len(m) * 2)
- 
- 
-/* ----------- LZW stuff -------------- */
-typedef uint8_t byte;
-typedef uint16_t ushort;
- 
-#define M_CLR 256 /* clear table marker */
-#define M_EOD 257 /* end-of-data marker */
-#define M_NEW 258 /* new code index */
- 
-/* encode and decode dictionary structures.
-   for encoding, entry at code index is a list of indices that follow current one,
-   i.e. if code 97 is 'a', code 387 is 'ab', and code 1022 is 'abc',
-   then dict[97].next['b'] = 387, dict[387].next['c'] = 1022, etc. */
-typedef struct {
-  ushort next[256];
-} lzw_enc_t;
- 
-/* for decoding, dictionary contains index of whatever prefix index plus trailing
-   byte.  i.e. like previous example,
-    dict[1022] = { c: 'c', prev: 387 },
-    dict[387]  = { c: 'b', prev: 97 },
-    dict[97]   = { c: 'a', prev: 0 }
-   the "back" element is used for temporarily chaining indices when resolving
-   a code to bytes
- */
-typedef struct {
-  ushort prev, back;
-  byte c;
-} lzw_dec_t;
- 
+} 
 
-
-
-
-
-
-
+ 
 byte* lzw_encode(byte *in, int max_bits)
 {
   int len = _len(in), bits = 9, next_shift = 512;
@@ -135,14 +95,6 @@ byte* lzw_encode(byte *in, int max_bits)
   _setsize(out, out_len);
   return out;
 }
- 
-
-
-
-
-
-
-
 
 
 byte* lzw_decode(byte *in)
@@ -193,7 +145,7 @@ byte* lzw_decode(byte *in)
       clear_table();
       continue;
     }
- 
+    
     if (code >= next_code) {
       fprintf(stderr, "Bad sequence\n");
       _del(out);
@@ -230,58 +182,4 @@ byte* lzw_decode(byte *in)
   _setsize(out, out_len);
 bail: _del(d);
   return out;
-}
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-int main()
-{
-  int i, fd = open("The_Three_Musketeers_by_Alexandre_Dumas.txt", O_RDONLY);
- 
-  if (fd == -1) {
-    fprintf(stderr, "Can't read file\n");
-    return 1;
-  };
- 
-  struct stat st;
-  fstat(fd, &st);
- 
-  byte *in = _new(char, st.st_size);
-  read(fd, in, st.st_size);
-  _setsize(in, st.st_size);
-  close(fd);
- 
-  printf("input size:   %d\n", _len(in));
- 
-  byte *enc = lzw_encode(in, 9);
-  printf("encoded size: %d\n", _len(enc));
- 
-  byte *dec = lzw_decode(enc);
-  printf("decoded size: %d\n", _len(dec));
- 
-  for (i = 0; i < _len(dec); i++)
-    if (dec[i] != in[i]) {
-      printf("bad decode at %d\n", i);
-      break;
-    }
- 
-  if (i == _len(dec)) printf("Decoded ok\n");
- 
- 
-  _del(in);
-  _del(enc);
-  _del(dec);
- 
-  return 0;
 }

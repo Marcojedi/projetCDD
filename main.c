@@ -5,6 +5,7 @@
 #include "global.h"
 #include "client.h"
 #include "serveur.h"
+#include "LZW.h"
 
 
 /**

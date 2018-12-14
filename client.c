@@ -9,16 +9,11 @@
 
 #include "global.h"
 #include "tools.h"
-
-/**
- * @brief le client lit les octet(signed char) que le serveur lui
- * envoie et les affiche.
- */
- 
+#include "LZW.h"
 
  
 void client(char * dest, int pipefd[2] ) {	
-  byte_t Oc;
+  /*byte_t Oc;
   int buf;
   char * Id = (char *) calloc( 10, sizeof(char) );
 	
@@ -28,6 +23,23 @@ void client(char * dest, int pipefd[2] ) {
     Oc = (byte_t) buf;
     bprintf( Oc , Id , 1 );
   }
+
+  close(pipefd[0]);
+  exit(EXIT_SUCCESS);*/
+
+  byte_t Oc;
+  byte * enc;
+  char * Id = (char *) calloc( 10, sizeof(char) );
+  
+  close(pipefd[1]);
+
+  read(pipefd[0], &enc, 1);
+  //---------------------------
+  byte *dec = lzw_decode(enc);
+  printf("decoded size: %d\n", _len(dec));
+ 
+  _del(dec);
+  //---------------------------
 
   close(pipefd[0]);
   exit(EXIT_SUCCESS);
