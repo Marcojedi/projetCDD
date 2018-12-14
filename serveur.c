@@ -25,6 +25,7 @@ void serveur(char *src,int pipefd[2] ) {
   close( pipefd[0] );		// Close unused read end
   FILE * fd;
   fd = fopen(src,"r");
+	if(fd==NULL) perror("Erreur ouverture, fichier introuvable"); 
   while(fgets(buf,BUFSIZ,fd)!=NULL){
 		while(buf[i]!='\n'){ //Recupère chaque lettre
 				m = buf[i];

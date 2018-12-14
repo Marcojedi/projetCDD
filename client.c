@@ -21,8 +21,7 @@ void client(char * dest, int pipefd[2] ) {
 	
   close(pipefd[1]);          // Close unused write end
   while (read(pipefd[0], &buf, 1) > 0) { // un octet est lu dans le tube
-  sprintf( Id , "\n\nCLIENT :: octet lu " );
-		printf("%d => %c",buf,buf);
+		printf("%c",buf);
     Oc = (byte_t) buf;
     bprintf( Oc , Id , 1 );
   }
