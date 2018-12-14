@@ -247,7 +247,7 @@ bail: _del(d);
 
 int main()
 {
-  int i, fd = open("number.txt", O_RDONLY);
+  int i, fd = open("The_Three_Musketeers_by_Alexandre_Dumas.txt", O_RDONLY);
  
   if (fd == -1) {
     fprintf(stderr, "Can't read file\n");
