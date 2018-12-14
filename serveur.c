@@ -8,12 +8,6 @@
 #include "global.h"
 #include "tools.h"
 
-/**
-    @encode pgme
-*/
-char encode(char msg){
-    typedef unsigned char octet_t;
-}
 
 /**
     @return ascii code from a char c
@@ -26,8 +20,6 @@ void serveur(char *src,int pipefd[2] ) {
     char * mots[3840];
   int i=0,nb_mot;
   char buf[BUFSIZ]; char m;
-	static octet_t * Triplet = NULL;
-	if(!Triplet) Triplet = (octet_t*) malloc(3*sizeof(octet_t));
 
   close( pipefd[0] );		// Close unused read end
   FILE * fd;
