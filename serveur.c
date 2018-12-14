@@ -12,7 +12,7 @@
     @encode pgme
 */
 char encode(char msg){
-
+    typedef unsigned char octet_t;
 }
 
 /**
