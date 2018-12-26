@@ -6,6 +6,9 @@
 #include "client.h"
 #include "serveur.h"
 #include "LZW.h"
+#include "string.h"
+#include <stdbool.h>
+
 
 
 /**
@@ -25,6 +28,11 @@ const byte_t U = 0b00000001;
 
 int main( int argc, char ** argv ) {
   int pipefd[2];
+
+  if(argc < 2){
+    perror("Erreur: Veuillez renseigner un fichier à ouvrir!\n");
+    exit(EXIT_FAILURE);
+  } 
   if (pipe(pipefd) == -1) {
     perror("pipe");
     exit(EXIT_FAILURE);
@@ -35,8 +43,6 @@ int main( int argc, char ** argv ) {
     perror("fork");
     exit(EXIT_FAILURE);
   }
-
-  
   if (cpid == 0) {    /**< Child reads from pipe */
     client(argv[2], pipefd );
   }

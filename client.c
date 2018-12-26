@@ -13,20 +13,18 @@
 
  
 void client(char * dest, int pipefd[2] ) {	
-  /*byte_t Oc;
   int buf;
   char * Id = (char *) calloc( 10, sizeof(char) );
-	
+  
   close(pipefd[1]);          // Close unused write end
-  while (read(pipefd[0], &buf, 1) > 0) { // un octet est lu dans le tube
-		printf("%c",buf);
-    Oc = (byte_t) buf;
-    bprintf( Oc , Id , 1 );
+  printf("CLIENT\n------\n");
+  while (read(pipefd[0], &buf, sizeof(buf)) > 0) { // un octet est lu dans le tube
+		printf("%d\n",buf);
   }
 
-  close(pipefd[0]);
-  exit(EXIT_SUCCESS);*/
+  exit(EXIT_SUCCESS);
 
+/*
   byte_t Oc;
   byte * enc;
   char * Id = (char *) calloc( 10, sizeof(char) );
@@ -43,4 +41,5 @@ void client(char * dest, int pipefd[2] ) {
 
   close(pipefd[0]);
   exit(EXIT_SUCCESS);
+*/
 }
