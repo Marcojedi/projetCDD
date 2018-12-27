@@ -6,40 +6,39 @@
 #include "stdlib.h"
 #include "unistd.h"
 #include "string.h"
+#include "client.h"
 
-#include "global.h"
-#include "tools.h"
-#include "LZW.h"
+valeurs_t creerTableau(){
+    valeurs_t tableau;
+    tableau.size = 0; 
+    return tableau;
+}
 
- 
-void client(char * dest, int pipefd[2] ) {	
-  int buf;
-  char * Id = (char *) calloc( 10, sizeof(char) );
-  
-  close(pipefd[1]);          // Close unused write end
-  printf("CLIENT\n------\n");
-  while (read(pipefd[0], &buf, sizeof(buf)) > 0) { // un octet est lu dans le tube
-		printf("%d\n",buf);
-  }
+/* fonction qui decrypte le message */
+int decrypterXOR(int code){
+    code = code ^ KEY;
+    return code;
+}
 
-  exit(EXIT_SUCCESS);
+/* execution du client */
+void client(char * dest, int pipefd[2]) {	
+    int buf,i;
+    int key = 25;
+    valeurs_t tableau = creerTableau();
+      
+    close(pipefd[1]);          // Close unused write end
+    printf("CLIENT\n------\n");
+    while (read(pipefd[0], &buf, sizeof(buf)) > 0) { // un octet est lu dans le tube        
+        buf = decrypterXOR(buf);
 
-/*
-  byte_t Oc;
-  byte * enc;
-  char * Id = (char *) calloc( 10, sizeof(char) );
-  
-  close(pipefd[1]);
+        tableau.tableauValeurs[tableau.size] = buf;
+        tableau.size = ++tableau.size;
+    }
 
-  read(pipefd[0], &enc, 1);
-  //---------------------------
-  byte *dec = lzw_decode(enc);
-  printf("decoded size: %d\n", _len(dec));
- 
-  _del(dec);
-  //---------------------------
+    //affichage du tableau contenant les entiers
+    for (i = 0; i < tableau.size; i++) {
+        printf("%i\n", tableau.tableauValeurs[i]);
+    }
 
-  close(pipefd[0]);
-  exit(EXIT_SUCCESS);
-*/
+    exit(EXIT_SUCCESS);
 }
