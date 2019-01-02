@@ -55,7 +55,7 @@ bool chercherDansDicos(dico_t *dico,char * chaine){
 char * chercherDansDicoByIndex(dico_t *dico, int code){
     for(int i=0; i<dico->size;i++){
         if(dico->tabMots[i].index == code){
-            return dico->tabMots[i].chaine;
+            return strdup(dico->tabMots[i].chaine);
         }
     }
 }
@@ -70,7 +70,7 @@ void client(char * dest, int pipefd[2]) {
     char *S = "";
     char m;
     char *valeurCode = "";
-    dico_t dico;
+    dico_t dico = creerDico();
     valeurs_t tableau = creerTableau();
       
     close(pipefd[1]);          // Close unused write end
@@ -94,8 +94,7 @@ void client(char * dest, int pipefd[2]) {
         		}    		
         	}
         } else {
-        	strcpy(valeurCode, chercherDansDicoByIndex(&dico,c));
-        	printf("%s\n", valeurCode);
+            printf("%s\n",chercherDansDicoByIndex(&dico,c));
         }
     }
 
