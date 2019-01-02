@@ -53,10 +53,11 @@ bool chercherDansDicos(dico_t *dico,char * chaine){
 
 /* fonction qui verifie si la chaine trouvée est presente dans le dictionnaire */
 char * chercherDansDicoByIndex(dico_t *dico, int code){
-    for(int i=0; i<dico->size;i++){
+    for(int i=0; i<dico->size;i++) {
         if(dico->tabMots[i].index == code){
             return dico->tabMots[i].chaine;
         }
+    	return "Valeur non trouvée";
     }
 }
 
@@ -71,7 +72,6 @@ void client(char * dest, int pipefd[2]) {
     char m;
     char *valeurCode = "";
     dico_t dico;
-    valeurs_t tableau = creerTableau();
       
     close(pipefd[1]);          // Close unused write end
     printf("CLIENT\n------\n");
@@ -94,10 +94,8 @@ void client(char * dest, int pipefd[2]) {
         		}    		
         	}
         } else {
-        	strcpy(valeurCode, chercherDansDicoByIndex(&dico,c));
-        	printf("%s\n", valeurCode);
+        	printf("%s\n", chercherDansDicoByIndex(&dico,c));
         }
     }
-
     exit(EXIT_SUCCESS);
 }
