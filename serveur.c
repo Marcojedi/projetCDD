@@ -57,14 +57,14 @@ void emettreCode(dico_t *dico,char * S,int pipefd[2]){
     if(strlen(S)==1){
         code = S[0];
         code = crypterXOR(code);
-        write( pipefd[1], &code, sizeof(code) );
+        write(pipefd[1], &code, sizeof(code));
     }
     else{
         for(int i=0; i<dico->size;i++){
             if(strcmp(dico->tabMots[i].chaine,S)==0){
                 code = dico->tabMots[i].index;
                 code = crypterXOR(code);
-                write( pipefd[1], &code, sizeof(code));
+                write(pipefd[1], &code, sizeof(code));
             }
         }
     }
@@ -96,8 +96,8 @@ void serveur(char *src,int pipefd[2]){
             S = strconcat("",m);
         }
     }
-    emettreCode(&dico,S,pipefd);
-    printf("le serveur ferme\n\n");
+    emettreCode(&dico,S,pipefd);    
+    //printf("le serveur ferme\n\n");
 
     close(pipefd[1]);
     wait(NULL);
