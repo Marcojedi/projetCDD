@@ -55,10 +55,10 @@ bool chercherDansDicos(dico_t *dico,char * chaine){
 char * chercherDansDicoByIndex(dico_t *dico, int code){
     for(int i=0; i<dico->size;i++) {
         if(dico->tabMots[i].index == code){
-            return dico->tabMots[i].chaine;
+            return strdup(dico->tabMots[i].chaine);
         }
-    	return "Valeur non trouvée";
     }
+    return "Erreur : Valeur non trouvée";
 }
 
 char * toChar(int entier) {
@@ -70,8 +70,10 @@ void client(char * dest, int pipefd[2]) {
     int c,i;
     char *S = "";
     char m;
+    char *f = "";
     char *valeurCode = "";
-    dico_t dico;
+    dico_t dico = creerDico();
+    valeurs_t tableau = creerTableau();
       
     close(pipefd[1]);          // Close unused write end
     printf("CLIENT\n------\n");
@@ -80,7 +82,7 @@ void client(char * dest, int pipefd[2]) {
 
         if (c <= 255) {
         	m = toChar(c);
-        	printf("%c\n", m);
+        	printf("%c", m);
         	if (strlen(strconcats(S,m)) == 1)	{
         		S = strconcats(S,m); 
         	} else {
@@ -94,7 +96,18 @@ void client(char * dest, int pipefd[2]) {
         		}    		
         	}
         } else {
-        	printf("%s\n", chercherDansDicoByIndex(&dico,c));
+        	f = chercherDansDicoByIndex(&dico,c);
+        	for (int j = 0; j < strlen(f); j++) {
+        		printf("%c", f[j]);
+        		if (chercherDansDicos(&dico,strconcats(S,f[j]))) {
+	        		S = strconcats(S,f[j]);
+	        	} else {
+	        		mot_t motToAdd;
+			        motToAdd.chaine = strconcats(S,f[j]);
+			        ajoutMots(&dico,&motToAdd);
+	        		S = strconcats("",f[j]);
+	        	}
+        	}   	
         }
     }
     exit(EXIT_SUCCESS);
