@@ -52,19 +52,22 @@ int crypterXOR(int code){
 }
 
 /* fonction qui envoi au client les valeurs emises par LZW */
-void emettreCode(dico_t *dico,char * S,int pipefd[2]){
+void emettreCode(dico_t *dico,char * S,int pipefd[2],FILE *fw){
   int code;
     if(strlen(S)==1){
         code = S[0];
-        code = crypterXOR(code);
+        fprintf(fw, "emit %d == '%s' \n", code,S);
         write(pipefd[1], &code, sizeof(code));
+        
+
     }
     else{
         for(int i=0; i<dico->size;i++){
             if(strcmp(dico->tabMots[i].chaine,S)==0){
                 code = dico->tabMots[i].index;
-                code = crypterXOR(code);
+                fprintf(fw, "emit %d == '%s' \n", code,S);
                 write(pipefd[1], &code, sizeof(code));
+                 
             }
         }
     }
@@ -73,32 +76,40 @@ void emettreCode(dico_t *dico,char * S,int pipefd[2]){
 /* execution du serveur */
 void serveur(char *src,int pipefd[2]){  
     close(pipefd[0]);
-
+    remove("coding.txt");
     //declaration variable
     dico_t dico = creerDico();
-    write(pipefd[1],110,1);
     char m;
     char * S = "";
+    FILE *fw = fopen("coding.txt", "a");
     FILE * fd;
 
     //debut algorithme
     fd = fopen(src,"r"); if(fd==NULL) perror("Erreur ouverture, fichier introuvable");
     printf("SERVEUR\n-------\n");
     while ((m = fgetc(fd)) != EOF){
-        if(chercherDansDico(&dico,strconcat(S,m))==true){
-            S = strconcat(S,m);           
-        }
-        else{
-            emettreCode(&dico,S,pipefd);
-            mot_t motToAdd;
-            motToAdd.chaine = strconcat(S,m);
-            ajoutMot(&dico,&motToAdd);
+        if(dico.size<BUFSIZ-2){
+            if(chercherDansDico(&dico,strconcat(S,m))==true){
+                S = strconcat(S,m);           
+            }
+            else{
+                emettreCode(&dico,S,pipefd,fw);
+                mot_t motToAdd;
+                
+                motToAdd.chaine = strconcat(S,m);
+                ajoutMot(&dico,&motToAdd);
+                fprintf(fw, "'%s' ajouter au dico \n",strconcat(S,m));
+                S = strconcat("",m);
+            } 
+        }else{
             S = strconcat("",m);
+            emettreCode(&dico,S,pipefd,fw);
         }
+        //printf("SERVER TALKING || %d == '%s'\n\n",dico.tabMots[dico.size-1].index,dico.tabMots[dico.size-1].chaine);
     }
-    emettreCode(&dico,S,pipefd);    
-    //printf("le serveur ferme\n\n");
-
+    emettreCode(&dico,S,pipefd,fw);   
+    fclose(fw);
+    fclose(fd);
     close(pipefd[1]);
     wait(NULL);
     exit(EXIT_SUCCESS);

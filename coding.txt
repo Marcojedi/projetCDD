@@ -1,0 +1,33 @@
+emit 66 == 'B' 
+'Ba' ajouter au dico 
+emit 97 == 'a' 
+'ac' ajouter au dico 
+emit 99 == 'c' 
+'cc' ajouter au dico 
+emit 99 == 'c' 
+'ch' ajouter au dico 
+emit 104 == 'h' 
+'ha' ajouter au dico 
+emit 97 == 'a' 
+'an' ajouter au dico 
+emit 110 == 'n' 
+'na' ajouter au dico 
+emit 97 == 'a' 
+'al' ajouter au dico 
+emit 108 == 'l' 
+'le' ajouter au dico 
+emit 101 == 'e' 
+'es' ajouter au dico 
+emit 115 == 's' 
+'s ' ajouter au dico 
+emit 32 == ' ' 
+' B' ajouter au dico 
+emit 256 == 'Ba' 
+'Bac' ajouter au dico 
+emit 258 == 'cc' 
+'cch' ajouter au dico 
+emit 104 == 'h' 
+'hu' ajouter au dico 
+emit 117 == 'u' 
+'us' ajouter au dico 
+emit 115 == 's' 

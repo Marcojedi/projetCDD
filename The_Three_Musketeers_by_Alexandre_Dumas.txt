@@ -1,4 +1,4 @@
-﻿                      THE THREE MUSKETEERS
+THE THREE MUSKETEERS
 
 
 This ebook is for the use of anyone anywhere in the United States and
@@ -8,7 +8,6 @@ of the Project Gutenberg License included with this ebook or online at
 http://www.gutenberg.org/license. If you are not located in the United
 States, you’ll have to check the laws of the country where you are
 located before using this ebook.
-
 
 
 Title: The Three Musketeers
@@ -23,8 +22,6 @@ Character set encoding: UTF-8
 ALEXANDRE DUMAS, PERE ***
 
 
-
-
 Produced by John P. Roberts III, Roger Labbe, Scott David Gray, Sue
 Asscher, Anita Martin, David Muller and David Widger.
 
@@ -36,9 +33,6 @@ Asscher, Anita Martin, David Muller and David Widger.
                         *Alexandre Dumas, Pere*
 
                 _First Volume of the d’Artagnan Series_
-
-
-
 
 
 

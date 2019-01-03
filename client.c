@@ -51,6 +51,13 @@ bool chercherDansDicos(dico_t *dico,char * chaine){
     return false;
 }
 
+void visionDico(dico_t *dico){
+    printf("\n");
+    for(int i =0;i<dico->size;i++){    
+        printf("Index : %d || Chaine : '%s'\n",dico->tabMots[i].index,dico->tabMots[i].chaine);
+    }
+}
+
 /* fonction qui verifie si la chaine trouvée est presente dans le dictionnaire */
 char * chercherDansDicoByIndex(dico_t *dico, int code){
     for(int i=0; i<dico->size;i++) {
@@ -58,7 +65,8 @@ char * chercherDansDicoByIndex(dico_t *dico, int code){
             return strdup(dico->tabMots[i].chaine);
         }
     }
-    return "Erreur : Valeur non trouvée";
+    visionDico(dico);
+    return "\nErreur : Valeur non trouvée\n";
 }
 
 char * toChar(int entier) {
@@ -67,48 +75,58 @@ char * toChar(int entier) {
 
 /* execution du client */
 void client(char * dest, int pipefd[2]) {	
+    sleep(1);
     int c,i;
     char *S = "";
     char m;
-    char *f = "";
-    char *valeurCode = "";
+    char *M = "";
+    
+    FILE *fw = fopen("decoding.txt","w");
     dico_t dico = creerDico();
     valeurs_t tableau = creerTableau();
       
     close(pipefd[1]);          // Close unused write end
     printf("CLIENT\n------\n");
-    while (read(pipefd[0], &c, sizeof(c)) > 0) { // un octet est lu dans le tube  
-        c = decrypterXOR(c);
-
+    while (read(pipefd[0], &c, sizeof(c)) > 0) { // un octet est lu dans le tube    
         if (c <= 255) {
         	m = toChar(c);
         	printf("%c", m);
+            fprintf(fw, "--> %c a ete decode \n",c);
         	if (strlen(strconcats(S,m)) == 1)	{
         		S = strconcats(S,m); 
         	} else {
-        		if (chercherDansDicos(&dico,strconcats(S,m))) {
+        		if (chercherDansDicos(&dico,strconcats(S,m))==true) {
         			S = strconcats(S,m);
         		} else {
         			mot_t motToAdd;
 		            motToAdd.chaine = strconcats(S,m);
 		            ajoutMots(&dico,&motToAdd);
+                    fprintf(fw, "--> %s ajouter au dico \n",strconcats(S,m));
 		            S = strconcats("",m);
         		}    		
         	}
         } else {
-        	f = chercherDansDicoByIndex(&dico,c);
-        	for (int j = 0; j < strlen(f); j++) {
-        		printf("%c", f[j]);
-        		if (chercherDansDicos(&dico,strconcats(S,f[j]))) {
-	        		S = strconcats(S,f[j]);
+            char * back = malloc(BUFSIZ*sizeof(char));
+        	M = chercherDansDicoByIndex(&dico,c);
+        	for (int j = 0; j < strlen(M); j++) {
+                printf("%c",M[j]);
+                fprintf(fw, "'%c' a ete decode! \n",M[j]);
+                strcpy(back,S);
+                S = strconcats(S,M[j]);
+        		if (chercherDansDicos(&dico,S)) {
+                    printf(""); 
 	        	} else {
+                    strcpy(S,back);
 	        		mot_t motToAdd;
-			        motToAdd.chaine = strconcats(S,f[j]);
+			        motToAdd.chaine = strconcats(S,M[j]);
 			        ajoutMots(&dico,&motToAdd);
-	        		S = strconcats("",f[j]);
+                    fprintf(fw, "'%s' ajouter au dico \n",strconcats(S,M[j]));
+                    S = strconcats("",M[j]);
 	        	}
-        	}   	
+        	}  	
         }
     }
+    fclose(fw);
+    printf("\n");
     exit(EXIT_SUCCESS);
 }

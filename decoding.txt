@@ -1,0 +1,35 @@
+--> B a ete decode 
+--> a a ete decode 
+--> Ba ajouter au dico 
+--> c a ete decode 
+--> ac ajouter au dico 
+--> c a ete decode 
+--> cc ajouter au dico 
+--> h a ete decode 
+--> ch ajouter au dico 
+--> a a ete decode 
+--> ha ajouter au dico 
+--> n a ete decode 
+--> an ajouter au dico 
+--> a a ete decode 
+--> na ajouter au dico 
+--> l a ete decode 
+--> al ajouter au dico 
+--> e a ete decode 
+--> le ajouter au dico 
+--> s a ete decode 
+--> es ajouter au dico 
+-->   a ete decode 
+--> s  ajouter au dico 
+'B' a ete decode! 
+' B' ajouter au dico 
+'a' a ete decode! 
+'c' a ete decode! 
+'Bac' ajouter au dico 
+'c' a ete decode! 
+--> h a ete decode 
+--> cch ajouter au dico 
+--> u a ete decode 
+--> hu ajouter au dico 
+--> s a ete decode 
+--> us ajouter au dico 
