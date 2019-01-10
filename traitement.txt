@@ -1,6 +1,5 @@
 		THE THREE MUSKETEERS
 
-
 This ebook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
 whatsoever. You may copy it, give it away or re-use it under the terms
@@ -9,7 +8,6 @@ http://ww.gutenberg.org/license. If you are not located in the United
 States, you’ll have to check the laws of the country where you are
 located before using this ebook.
 
-
 Title: The Three Musketeers
 Author: Alexandre Dumas, Pere
 Release Date: March 01, 1998 [EBook #1257]
@@ -17,14 +15,11 @@ Reposted: November 27, 2016 [corrections made]
 Language: English
 Character set encoding: UTF-8
 
-
 ** START OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
 ALEXANDRE DUMAS, PERE **
 
-
 Produced by John P. Roberts II, Roger Labbe, Scott David Gray, Sue
 Asscher, Anita Martin, David Muller and David Widger.
-
 
   *THE THREE MUSKETEERS*
 
@@ -34,10 +29,7 @@ Asscher, Anita Martin, David Muller and David Widger.
 
   _First Volume of the d’Artagnan Series_
 
-
-
 CONTENTS
-
 
   AUTHOR’S PREFACE
   1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
@@ -111,11 +103,7 @@ CONTENTS
   67 CONCLUSION
   EPILOGUE
 
-
-
-
 AUTHOR’S PREFACE
-
 
 In which it is proved that, notwithstanding their names’ ending in OS
 and IS, the heroes of the story which we are about to have the honor to
@@ -200,11 +188,7 @@ pleasure or the ENNUI he may experience.
 
 This being understood, let us proceed with our history.
 
-
-
-
 1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
-
 
 On the first Monday of the month of April, 1625, the market town of
 Meung, in which the author of ROMANCE OF THE ROSE was born, appeared to
@@ -819,8 +803,7 @@ his arm, and walked about till he found an apartment to be let on terms
 suited to the scantiness of his means. This chamber was a sort of
 garret, situated in the Rue des Fossoyeurs, near the Luxembourg.
 
-As soon as the earnest money was paid, d’Artagnan took possession of his
-lodging, and passed the remainder of the day in sewing onto his doublet
+As soon as the earnest money was paid, d’Artagnan took possession of his lodging, and passed the remainder of the day in sewing onto his doublet
 and hose some ornamental braiding which his mother had taken off an
 almost-new doublet of the elder M. d’Artagnan, and which she had given
 her son secretly. Next he went to the Quai de Feraille to have a new
@@ -841,11 +824,7 @@ morning; at which hour he rose, in order to repair to the residence of
 M. de Treville, the third personage in the kingdom, in the paternal
 estimation.
 
-
-
-
 2 THE ANTECHAMBER OF M. DE TREVILLE
-
 
 M de Troisville, as his family was still called in Gascony, or M. de
 Treville, as he has ended by styling himself in Paris, had really
@@ -1260,11 +1239,7 @@ the length of the antechamber, and entered the apartment of the captain
 of the Musketeers, congratulating himself with all his heart at having
 so narrowly escaped the end of this strange quarrel.
 
-
-
-
 3 THE AUDIENCE
-
 
 M de Treville was at the moment in rather ill-humor, nevertheless he
 saluted the young man politely, who bowed to the very ground; and he
@@ -1733,12 +1708,8 @@ disappeared.
 he, “this is a cunning mode of escaping, seeing that he had failed in
 his purpose!”
 
-
-
-
 4 THE SHOULDER OF ATHOS, THE BALDRIC OF PORTHOS AND THE HANDKERCHIEF OF
 ARAMIS
-
 
 D’Artagnan, in a state of fury, crossed the antechamber at three bounds,
 and was darting toward the stairs, which he reckoned upon descending
@@ -2081,11 +2052,7 @@ was approaching, took the road to the Carmes-Deschaux, saying to
 himself, “Decidedly I can’t draw back; but at least, if I am killed, I
 shall be killed by a Musketeer.”
 
-
-
-
 5 THE KING’S MUSKETEERS AND THE CARDINAL’S GUARDS
-
 
 D’Artagnan was acquainted with nobody in Paris. He went therefore to his
 appointment with Athos without a second, determined to be satisfied with
@@ -2556,11 +2523,7 @@ between Athos and Porthos, pressing them tenderly.
 through the gateway of M. de Treville’s hotel, “at least I have entered
 upon my apprenticeship, haven’t I?”
 
-
-
-
 6 HIS MAJESTY KING LOUIS XII
-
 
 This affair made a great noise. M. de Treville scolded his Musketeers in
 public, and congratulated them in private; but as no time was to be lost
@@ -3398,11 +3361,7 @@ possible whenever he met him, or from asking in the kindest tone, “Well,
 Monsieur Cardinal, how fares it with that poor Jussac and that poor
 Bernajoux of yours?”
 
-
-
-
 7 THE INTERIOR* OF THE MUSKETEERS
-
 
 When d’Artagnan was out of the Louvre, and consulted his friends upon
 the use he had best make of his share of the forty pistoles, Athos
@@ -3737,11 +3696,7 @@ with d’Artagnan when he was on duty. The company of M. le Chevalier
 Dessessart thus received four instead of one when it admitted
 d’Artagnan.
 
-
-
-
 8 CONCERNING A COURT INTRIGUE
-
 
 In the meantime, the forty pistoles of King Louis XII, like all other
 things of this world, after having had a beginning had an end, and after
@@ -4151,11 +4106,7 @@ dreading the consequences of the encounter which was doubtless about to
 take place between the young man and the stranger, had, consistent with
 the character he had given himself, judged it prudent to decamp.
 
-
-
-
 9 D’ARTAGNAN SHOWS HIMSELF
-
 
 As Athos and Porthos had foreseen, at the expiration of a half hour,
 d’Artagnan returned. He had again missed his man, who had disappeared as
@@ -4540,11 +4491,7 @@ formula dictated by d’Artagnan:
 d’Artagnan, as if he had done nothing but command all his life; “and
 attention! For from this moment we are at feud with the cardinal.”
 
-
-
-
 10 A MOUSETRAP IN THE SEVENTEENTH CENTURY
-
 
 The invention of the mousetrap does not date from our days; as soon as
 societies, in forming, had invented any kind of police, that police
@@ -4996,11 +4943,7 @@ next day that it had been put wrong, and certain from that time that he
 had a witness to prove his alibi, he ran downstairs and soon found
 himself in the street.
 
-
-
-
 11 IN WHICH THE PLOT THICKENS
-
 
 His visit to M. de Treville being paid, the pensive d’Artagnan took the
 longest way homeward.
@@ -5803,11 +5746,7 @@ Meanwhile, carried away as we are by our narrative, we must leave our
 three friends to themselves, and follow the Duke of Buckingham and his
 guide through the labyrinths of the Louvre.
 
-
-
-
 12 GEORGE VILLIERS, DUKE OF BUCKINGHAM
-
 
 Mme. Bonacieux and the duke entered the Louvre without difficulty. Mme.
 Bonacieux was known to belong to the queen; the duke wore the uniform of
@@ -6139,11 +6078,7 @@ In the corridor he met Mme. Bonacieux, who waited for him, and who, with
 the same precautions and the same good luck, conducted him out of the
 Louvre.
 
-
-
-
 13 MONSIEUR BONACIEUX
-
 
 There was in all this, as may have been observed, one personage
 concerned, of whom, notwithstanding his precarious position, we have
@@ -6547,11 +6482,7 @@ Bonacieux could endure, depressed as he was by the successive emotions
 which he had experienced; he uttered a feeble groan which night have
 been taken for the last sigh of a dying man, and fainted.
 
-
-
-
 14 THE MAN OF MEUNG
-
 
 The crowd was caused, not by the expectation of a man to be hanged, but
 by the contemplation of a man who was hanged.
@@ -7088,11 +7019,7 @@ to him as you can, and cut off two.
 
 As soon as these studs shall be in your possession, inform me.
 
-
-
-
 15 MEN OF THE ROBE AND MEN OF THE SWORD
-
 
 On the day after these events had taken place, Athos not having
 reappeared, M. de Treville was informed by d’Artagnan and Porthos of the
@@ -7442,12 +7369,8 @@ king, “Now that we are at length by ourselves, we will, if your Majesty
 pleases, converse seriously. Sire, Buckingham has been in Paris five
 days, and only left this morning.”
 
-
-
-
 16 IN WHICH M. SEGUIER, KEEPER OF THE SEALS, LOOKS MORE THAN ONCE FOR
 THE BELL
-
 
 It is impossible to form an idea of the impression these few words made
 upon Louis XII. He grew pale and red alternately; and the cardinal saw
@@ -7969,11 +7892,7 @@ Then the cardinal added, “A PROPOS, sire, do not forget to tell her
 Majesty the evening before the fete that you should like to see how her
 diamond studs become her.”
 
-
-
-
 17 BONACIEUX AT HOME
-
 
 It was the second time the cardinal had mentioned these diamond studs to
 the king. Louis XII was struck with this insistence, and began to fancy
@@ -8588,11 +8507,7 @@ her head, and a voice which reached her through the ceiling cried, “Dear
 Madame Bonacieux, open for me the little door on the alley, and I will
 come down to you.”
 
-
-
-
 18 LOVER AND HUSBAND
-
 
 Ah, Madame,” said d’Artagnan, entering by the door which the young woman
 opened for him, “allow me to tell you that you have a bad sort of a
@@ -8976,11 +8891,7 @@ with which he had turned the angle of the street, she fell on her knees,
 and clasping her hands, “Oh, my God,” cried she, “protect the queen,
 protect me!”
 
-
-
-
 19 PLAN OF CAMPAIGN
-
 
 D’Artagnan went straight to M. de Treville’s. He had reflected that in a
 few minutes the cardinal would be warned by this cursed stranger, who
@@ -9418,11 +9329,7 @@ and that we set off in half an hour.”
 Each one, stretching out his hand to the bag, took his seventy-five
 pistoles, and made his preparations to set out at the time appointed.
 
-
-
-
 20 THE JOURNEY
-
 
 At two o’clock in the morning, our four adventurers left Paris by the
 Barriere St. Denis. As long as it was dark they remained silent; in
@@ -9968,11 +9875,7 @@ humbly beg him to excuse me, but an affair of the greatest importance
 recalls me to London. Come, monsieur, come!” and both set off towards
 the capital at full gallop.
 
-
-
-
 21 THE COUNTESS DE WINTER
-
 
 As they rode along, the duke endeavored to draw from d’Artagnan, not all
 that had happened, but what d’Artagnan himself knew. By adding all that
@@ -10391,11 +10294,7 @@ only, when pressing his hand a little more warmly than usual, he
 informed him that the company of Dessessart was on duty at the Louvre,
 and that he might repair at once to his post.
 
-
-
-
 22 THE BALLET OF LA MERLAISON
-
 
 On the morrow, nothing was talked of in Paris but the ball which the
 aldermen of the city were to give to the king and queen, and in which
@@ -10683,11 +10582,7 @@ At these words she opened the door of the corridor, and pushed
 d’Artagnan out of the room. D’Artagnan obeyed like a child, without the
 least resistance or objection, which proved that he was really in love.
 
-
-
-
 23 THE RENDEZVOUS
-
 
 D’Artagnan ran home immediately, and although it was three o’clock in
 the morning and he had some of the worst quarters of Paris to traverse,
@@ -11216,11 +11111,7 @@ As to d’Artagnan, being at bottom a prudent youth, instead of returning
 home, went and dined with the Gascon priest, who, at the time of the
 distress of the four friends, had given them a breakfast of chocolate.
 
-
-
-
 24 THE PAVILION
-
 
 At nine o’clock d’Artagnan was at the Hotel des Gardes; he found
 Planchet all ready. The fourth horse had arrived.
@@ -11639,11 +11530,7 @@ Planchet, who, with the two horses in hand, awaited him at the door of a
 little blind cabaret, before which d’Artagnan had passed without even a
 suspicion of its existence.
 
-
-
-
 25 PORTHOS
-
 
 Instead of returning directly home, d’Artagnan alighted at the door of
 M. de Treville, and ran quickly up the stairs. This time he had decided
@@ -12520,11 +12407,7 @@ again recommended Porthos to the care of Mousqueton, and paid his bill
 to the host, he resumed his route with Planchet, already relieved of one
 of his led horses.
 
-
-
-
 26 ARAMIS AND HIS THESIS
-
 
 D’Artagnan had said nothing to Porthos of his wound or of his
 procurator’s wife. Our Bearnais was a prudent lad, however young he
@@ -13246,11 +13129,7 @@ MORBLEU! Let us drink while the wine is fresh! Let us drink heartily,
 and while we do so, tell me a little of what is going on in the world
 yonder.”
 
-
-
-
 27 THE WIFE OF ATHOS
-
 
 We have now to search for Athos,” said d’Artagnan to the vivacious
 Aramis, when he had informed him of all that had passed since their
@@ -14151,11 +14030,7 @@ to sleep.
 “These young fellows can none of them drink,” said Athos, looking at him
 with pity, “and yet this is one of the best!”
 
-
-
-
 28 THE RETURN
-
 
 D’Artagnan was astounded by the terrible confidence of Athos; yet many
 things appeared very obscure to him in this half revelation. In the
@@ -14852,11 +14727,7 @@ beautiful ring which beams from the finger of our friend. What the
 devil! D’Artagnan is too good a comrade to leave his brothers in
 embarrassment while he wears the ransom of a king on his finger.”
 
-
-
-
 29 HUNTING FOR THE EQUIPMENTS
-
 
 The most preoccupied of the four friends was certainly d’Artagnan,
 although he, in his quality of Guardsman, would be much more easily
@@ -15241,11 +15112,7 @@ Porthos, squeezing the hand of the procurator’s wife tenderly.
 
 “Tomorrow, flame of my life!”
 
-
-
-
 30 D’ARTAGNAN AND THE ENGLISHMAN
-
 
 D’Artagnan followed Milady without being perceived by her. He saw her
 get into her carriage, and heard her order the coachman to drive to St.
@@ -15587,11 +15454,7 @@ shall hereafter see the execution, and which promised him some agreeable
 adventure, as might be seen by the smiles which from time to time passed
 over his countenance, whose thoughtfulness they animated.
 
-
-
-
 31 ENGLISH AND FRENCH
-
 
 The hour having come, they went with their four lackeys to a spot behind
 the Luxembourg given up to the feeding of goats. Athos threw a piece of
@@ -15932,11 +15795,7 @@ Every evening, either in the antechamber, the corridor, or on the
 stairs, he met the pretty SOUBRETTE. But, as we have said, d’Artagnan
 paid no attention to this persistence of poor Kitty.
 
-
-
-
 32 A PROCURATOR’S DINNER
-
 
 However brilliant had been the part played by Porthos in the duel, it
 had not made him forget the dinner of the procurator’s wife.
@@ -16352,11 +16211,7 @@ obliged to give place to the king.
 
 The Musketeer returned home hungry and in bad humor.
 
-
-
-
 33 SOUBRETTE AND MISTRESS
-
 
 Meantime, as we have said, despite the cries of his conscience and the
 wise counsels of Athos, d’Artagnan became hourly more in love with
@@ -16824,11 +16679,7 @@ mistress’s presence at an early hour that evening, and that when he left
 the mistress he would ascend with the maid. This promise completed poor
 Kitty’s consolation.
 
-
-
-
 34 IN WHICH THE EQUIPMENT OF ARAMIS AND PORTHOS IS TREATED OF
-
 
 Since the four friends had been each in search of his equipments, there
 had been no fixed meeting between them. They dined apart from one
@@ -17214,11 +17065,7 @@ saying, “Till this evening.”
 “The devil!” thought Porthos, as he walked away, “it appears I am
 getting nearer to Monsieur Coquenard’s strongbox at last.”
 
-
-
-
 35 A GASCON A MATCH FOR CUPID
-
 
 The evening so impatiently waited for by Porthos and by d’Artagnan at
 last arrived.
@@ -17521,11 +17368,7 @@ not faint; I avenge myself!”
 
 And she made a sign for Kitty to leave the room.
 
-
-
-
 36 DREAM OF VENGEANCE
-
 
 That evening Milady gave orders that when M. d’Artagnan came as usual,
 he should be immediately admitted; but he did not come.
@@ -17910,11 +17753,7 @@ Milady held out her hand to him, which he kissed tenderly.
 of Kitty, “I must not play the fool. This woman is certainly a great
 liar. I must take care.”
 
-
-
-
 37 MILADY’S SECRET
-
 
 D’Artagnan left the hotel instead of going up at once to Kitty’s
 chamber, as she endeavored to persuade him to do--and that for two
@@ -18228,11 +18067,7 @@ The young man fled while she was still threatening him with an impotent
 gesture. The moment she lost sight of him, Milady tumbled fainting into
 her chamber.
 
-
-
-
 38 HOW, WITHOUT INCOMMDING HIMSELF, ATHOS PROCURES HIS EQUIPMENT
-
 
 D’Artagnan was so completely bewildered that without taking any heed of
 what might become of Kitty he ran at full speed across half Paris, and
@@ -18700,11 +18535,7 @@ and without having met with any accident.
 
 It was thus Athos found at home resources which he did not expect.
 
-
-
-
 39 A VISION
-
 
 At four o’clock the four friends were all assembled with Athos. Their
 anxiety about their outfits had all disappeared, and each countenance
@@ -19111,11 +18942,7 @@ Tragedy in Five Acts,” and raised his head.
 
 D’Artagnan recognized the cardinal.
 
-
-
-
 40 A TERRIBLE VISION
-
 
 The cardinal leaned his elbow on his manuscript, his cheek upon his
 hand, and looked intently at the young man for a moment. No one had a
@@ -19443,11 +19270,7 @@ The two men followed the company, and on leaving the Faubourg St.
 Antoine, mounted two horses properly equipped, which a servant without
 livery had waiting for them.
 
-
-
-
 41 THE SEIGE OF LA ROCHELLE
-
 
 The Siege of La Rochelle was one of the great political events of the
 reign of Louis XII, and one of the great military enterprises of the
@@ -19987,11 +19810,7 @@ two enemies was killed and the other devoted to his interests.
 This tranquillity proved one thing--that d’Artagnan did not yet know
 Milady.
 
-
-
-
 42 THE ANJOU WINE
-
 
 After the most disheartening news of the king’s health, a report of his
 convalescence began to prevail in the camp; and as he was very anxious
@@ -20368,11 +20187,7 @@ D’Artagnan returned to less important affairs, and the three Musketeers
 repaired to the king’s quarters, where they had to prepare their
 lodging.
 
-
-
-
 43 THE SIGN OF THE RED DOVECOT
-
 
 Meanwhile the king, who, with more reason than the cardinal, showed his
 hatred for Buckingham, although scarcely arrived was in such a haste to
@@ -20717,11 +20532,7 @@ And while the three Musketeers entered the ground floor room, the
 cardinal, without asking further information, ascended the staircase
 like a man who has no need of having his road pointed out to him.
 
-
-
-
 44 THE UTILITY OF STOVEPIPES
-
 
 It was evident that without suspecting it, and actuated solely by their
 chivalrous and adventurous character, our three friends had just
@@ -21106,11 +20917,7 @@ four words convinced the attendant of the necessity of a vanguard for
 their return, carefully examined the priming of his pistols, drew his
 sword, and took, like a forlorn hope, the road to the camp.
 
-
-
-
 45 A CONJUGAL SCENE
-
 
 As Athos had foreseen, it was not long before the cardinal came down. He
 opened the door of the room in which the Musketeers were, and found
@@ -21378,11 +21185,7 @@ nine, the vessel, which with letters of marque from the cardinal was
 supposed to be sailing for Bayonne, raised anchor, and steered its
 course toward England.
 
-
-
-
 46 THE BASTION SAINT-GERVAIS
-
 
 On arriving at the lodgings of his three friends, d’Artagnan found them
 assembled in the same chamber. Athos was meditating; Porthos was
@@ -21707,11 +21510,7 @@ All the spectators returned him his salute, accompanying this courtesy
 with a loud hurrah which was audible to the four; after which all four
 disappeared in the bastion, whither Grimaud had preceded them.
 
-
-
-
 47 THE COUNCIL OF THE MUSKETEERS
-
 
 As Athos had foreseen, the bastion was only occupied by a dozen corpses,
 French and Rochellais.
@@ -22563,11 +22362,7 @@ gave him a bag containing seven thousand livres.
 
 This was the price of the queen’s diamond.
 
-
-
-
 48 A FAMILY AFFAIR
-
 
 Athos had invented the phrase, family affair. A family affair was not
 subject to the investigation of the cardinal; a family affair concerned
@@ -23224,11 +23019,7 @@ sixteen days.”
 
 “Well, if you will have the truth, and me, too!” said Athos.
 
-
-
-
 49 FATALITY
-
 
 Meantime Milady, drunk with passion, roaring on the deck like a lioness
 that has been embarked, had been tempted to throw herself into the sea
@@ -23579,11 +23370,7 @@ Then, turning toward the door, and seeing that the young officer was
 waiting for his last orders, he said. “All is well, I thank you; now
 leave us alone, Mr. Felton.”
 
-
-
-
 50 CHAT BETWEEN BROTHER AND SISTER
-
 
 During the time which Lord de Winter took to shut the door, close a
 shutter, and draw a chair near to his sister-in-law’s fauteuil, Milady,
@@ -23903,11 +23690,7 @@ raised her head, which had resumed its formidable expression of menace
 and defiance, ran to the door to listen, looked out of her window, and
 returning to bury herself again in her large armchair, she reflected.
 
-
-
-
 51 OFFICER
-
 
 Meanwhile, the cardinal looked anxiously for news from England; but no
 news arrived that was not annoying and threatening.
@@ -24352,11 +24135,7 @@ our ease respecting the letter.”
 Meantime, his Eminence continued his melancholy ride, murmuring between
 his mustaches, “These four men must positively be mine.”
 
-
-
-
 52 CAPTIVITY: THE FIRST DAY
-
 
 Let us return to Milady, whom a glance thrown upon the coast of France
 has made us lose sight of for an instant.
@@ -24650,11 +24429,7 @@ Anyone who had seen her sleeping might have said she was a young girl
 dreaming of the crown of flowers she was to wear on her brow at the next
 festival.
 
-
-
-
 53 CAPTIVITY: THE SECOND DAY
-
 
 Milady dreamed that she at length had d’Artagnan in her power, that she
 was present at his execution; and it was the sight of his odious blood,
@@ -24970,11 +24745,7 @@ severity toward his prisoner, rushed out of the room.
 the mind; and yet we become accustomed to them, her voice is so
 beautiful.”
 
-
-
-
 54 CAPTIVITY: THE THIRD DAY
-
 
 Felton had fallen; but there was still another step to be taken. He must
 be retained, or rather he must be left quite alone; and Milady but
@@ -25356,11 +25127,7 @@ However, a few instants after she had finished her religious song,
 Milady thought she heard a profound sigh. Then the same steps she had
 heard approach slowly withdrew, as if with regret.
 
-
-
-
 55 CAPTIVITY: THE FOURTH DAY
-
 
 The next day, when Felton entered Milady’s apartment he found her
 standing, mounted upon a chair, holding in her hands a cord made by
@@ -25720,11 +25487,7 @@ whom she had just sworn without ever having learned to know Him.
 “My God,” said she, “what a senseless fanatic! My God, it is I--I--and
 this fellow who will help me to avenge myself.”
 
-
-
-
 56 CAPTIVITY: THE FIFTH DAY
-
 
 Milady had however achieved a half-triumph, and success doubled her
 forces.
@@ -26361,11 +26124,7 @@ Felton leaned for support upon a piece of furniture; and Milady saw,
 with the joy of a demon, that his strength would fail him perhaps before
 the end of her recital.
 
-
-
-
 57 MEANS FOR CLASSICAL TRAGEDY
-
 
 After a moment of silence employed by Milady in observing the young man
 who listened to her, Milady continued her recital.
@@ -26672,11 +26431,7 @@ Meanwhile, all things considered and notwithstanding his suspicions, as
 the wound might be serious, he immediately sent off a mounted man to
 find a physician.
 
-
-
-
 58 ESCAPE
-
 
 As Lord de Winter had thought, Milady’s wound was not dangerous. So soon
 as she was left alone with the woman whom the baron had summoned to her
@@ -27103,11 +26858,7 @@ did not return by ten o’clock she was to sail.
 In that case, and supposing he was at liberty, he was to rejoin her in
 France, at the convent of the Carmelites at Bethune.
 
-
-
-
 59 WHAT TOOK PLACE AT PORTSMOUTH AUGUST 23, 1628
-
 
 Felton took leave of Milady as a brother about to go for a mere walk
 takes leave of his sister, kissing her hand.
@@ -27609,11 +27360,7 @@ Felton lowered his head without pronouncing a syllable.
 As to Lord de Winter, he descended the stairs rapidly, and went straight
 to the port.
 
-
-
-
 60 IN FRANCE
-
 
 The first fear of the King of England, Charles I, on learning of the
 death of the duke, was that such terrible news might discourage the
@@ -27847,11 +27594,7 @@ horse!”
 
 And the four friends flew at a gallop along the road to Bethune.
 
-
-
-
 61 THE CARMELITE CONVENT AT BETHUNE
-
 
 Great criminals bear about them a kind of predestination which makes
 them surmount all obstacles, which makes them escape all dangers, up to
@@ -28464,11 +28207,7 @@ the door opened, and a man appeared.
 Milady uttered a cry of joy; this man was the Comte de Rochefort--the
 demoniacal tool of his Eminence.
 
-
-
-
 62 TWO VARIETIES OF DEMONS
-
 
 Ah,” cried Milady and Rochefort together, “it is you!”
 
@@ -28784,11 +28523,7 @@ Our readers already know how he was recognized by d’Artagnan, and how
 that recognition by inspiring fear in the four Musketeers had given
 fresh activity to their journey.
 
-
-
-
 63 THE DROP OF WATER
-
 
 Rochefort had scarcely departed when Mme. Bonacieux re-entered. She
 found Milady with a smiling countenance.
@@ -29475,11 +29210,7 @@ that man’s hat, upon which is written the name of the village of--”
 
 “You see, then,” said Athos, “there is a god in heaven still!”
 
-
-
-
 64 THE MAN IN THE RED CLOAK
-
 
 The despair of Athos had given place to a concentrated grief which only
 rendered more lucid the brilliant mental faculties of that extraordinary
@@ -29709,11 +29440,7 @@ It was a melancholy sight--that of these six men, traveling in silence,
 each plunged in his own thoughts, sad as despair, gloomy as
 chastisement.
 
-
-
-
 65 TRIAL
-
 
 It was a stormy and dark night; vast clouds covered the heavens,
 concealing the stars; the moon would not rise till midnight.
@@ -30079,11 +29806,7 @@ behind her. The lackeys followed their masters, and the chamber was left
 solitary, with its broken window, its open door, and its smoky lamp
 burning sadly on the table.
 
-
-
-
 66 EXECUTION
-
 
 It was near midnight; the moon, lessened by its decline, and reddened by
 the last traces of the storm, arose behind the little town of
@@ -30292,11 +30015,7 @@ amused during your excursion.”
 
 “Prodigiously,” replied Athos in the name of himself and his comrades.
 
-
-
-
 67 CONCLUSION
-
 
 On the sixth of the following month the king, in compliance with the
 promise he had made the cardinal to return to La Rochelle, left his
@@ -30730,11 +30449,7 @@ down his cheeks.
 “You are young,” replied Athos; “and your bitter recollections have time
 to change themselves into sweet remembrances.”
 
-
-
-
 EPILOGUE
-
 
 La Rochelle, deprived of the assistance of the English fleet and of the
 diversion promised by Buckingham, surrendered after a siege of a year.
@@ -30794,19 +30509,12 @@ in the Rue des Fossoyeurs; the opinion of those who seemed to be best
 informed was that he was fed and lodged in some royal castle, at the
 expense of his generous Eminence.
 
-
-
-
   ――――
 
 ** END OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
 ALEXANDRE DUMAS, PERE **
 
-
-
-
 A Word from Project Gutenberg
-
 
 We will update this book if we find any errors.
 
@@ -30829,10 +30537,7 @@ _anything_ in the United States with eBooks not protected by U.S.
 copyright law. Redistribution is subject to the trademark license,
 especially commercial redistribution.
 
-
-
 The Full Project Gutenberg License
-
 
 _Please read this before you distribute or use this work._
 
@@ -30843,10 +30548,8 @@ Gutenberg”), you agree to comply with all the terms of the Full Project
 Gutenberg™ License available with this file or online at
 http://ww.gutenberg.org/license.
 
-
 Section 1. General Terms of Use & Redistributing Project Gutenberg™
 electronic works
-
 
 *1.A.* By reading or using any part of this Project Gutenberg™
 electronic work, you indicate that you have read, understand, agree to
@@ -30884,7 +30587,6 @@ of this agreement for keeping the Project Gutenberg™ name associated
 with the work. You can easily comply with the terms of this agreement by
 keeping this work in the same format with its attached full Project
 Gutenberg™ License when you share it without charge with others.
-
 
 *1.D.* The copyright laws of the place where you are located also govern
 what you can do with this work. Copyright laws in most countries are in
@@ -30989,7 +30691,6 @@ that
   - You comply with all other terms of this agreement for free
   distribution of Project Gutenberg™ works.
 
-
 *1.E.9.* If you wish to charge a fee or distribute a Project Gutenberg™
 electronic work or group of works on different terms than are set forth
 in this agreement, you must obtain permission in writing from both the
@@ -31060,9 +30761,7 @@ or cause to occur: (a) distribution of this or any Project Gutenberg™
 work, (b) alteration, modification, or additions or deletions to any
 Project Gutenberg™ work, and (c) any Defect you cause.
 
-
 Section 2. Information about the Mission of Project Gutenberg™
-
 
 Project Gutenberg™ is synonymous with the free distribution of
 electronic works in formats readable by the widest variety of computers
@@ -31080,10 +30779,8 @@ more about the Project Gutenberg Literary Archive Foundation and how
 your efforts and donations can help, see Sections 3 and 4 and the
 Foundation web page at http://ww.pglaf.org .
 
-
 Section 3. Information about the Project Gutenberg Literary Archive
 Foundation
-
 
 The Project Gutenberg Literary Archive Foundation is a non profit
 501(c)(3) educational corporation organized under the laws of the state
@@ -31108,10 +30805,8 @@ For additional contact information:
   Chief Executive and Director
   gbnewby@pglaf.org
 
-
 Section 4. Information about Donations to the Project Gutenberg Literary
 Archive Foundation
-
 
 Project Gutenberg™ depends upon and cannot survive without wide spread
 public support and donations to carry out its mission of increasing the
@@ -31128,33 +30823,4 @@ considerable effort, much paperwork and many fees to meet and keep up
 with these requirements. We do not solicit donations in locations where
 we have not received written confirmation of compliance. To SEND
 DONATIONS or determine the status of compliance for any particular state
-visit http://ww.gutenberg.org/fundraising/donate
-
-While we cannot and do not solicit contributions from states where we
-have not met the solicitation requirements, we know of no prohibition
-against accepting unsolicited donations from donors in such states who
-approach us with offers to donate.
-
-International donations are gratefully accepted, but we cannot make any
-statements concerning tax treatment of donations received from outside
-the United States. U.S. laws alone swamp our small staff.
-
-Please check the Project Gutenberg Web pages for current donation
-methods and addresses. Donations are accepted in a number of other ways
-including checks, online payments and credit card donations. To donate,
-please visit: http://ww.gutenberg.org/fundraising/donate
-
-
-Section 5. General Information About Project Gutenberg™ electronic
-works.
-
-
-Professor Michael S. Hart is the originator of the Project Gutenberg™
-concept of a library of electronic works that could be freely shared
-with anyone. For thirty years, he produced and distributed Project
-Gutenberg™ eBooks with only a loose network of volunteer support.
-
-Project Gutenberg™ eBooks are often created from several printed
-editions, all of which are confirmed as not protected by copyright in
-the U.S. unless a copyright notice is included. Thus, we do not necessarily
-keep e
+visit http://ww.gutenberg.org/fundrai

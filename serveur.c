@@ -97,7 +97,8 @@ void copyDeleteRedoncance(char * src){
     FILE *fw = fopen("traitement.txt", "a");
     fd = fopen(src,"r"); if(fd==NULL) perror("Erreur ouverture, fichier introuvable");
     char lastValue = "";int count=0;
-    while ((m = fgetc(fd)) != EOF){
+    long saveCursorPosition;
+   while ((m = fgetc(fd)) != EOF){
         if((lastValue==m)&&(count>=1)){
             fprintf(fw,"");
         }
@@ -109,7 +110,9 @@ void copyDeleteRedoncance(char * src){
             count = 0;
         }
         lastValue = m;
+        saveCursorPosition = ftell(fd);
     }
+    printf("%d\n",saveCursorPosition);
 }
 
 /* execution du serveur */

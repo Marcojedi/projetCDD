@@ -1,6 +1,5 @@
 		THE THREE MUSKETEERS
 
-
 This ebook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
 whatsoever. You may copy it, give it away or re-use it under the terms
@@ -9,7 +8,6 @@ http://ww.gutenberg.org/license. If you are not located in the United
 States, you’ll have to check the laws of the country where you are
 located before using this ebook.
 
-
 Title: The Three Musketeers
 Author: Alexandre Dumas, Pere
 Release Date: March 01, 1998 [EBook #1257]
@@ -17,14 +15,11 @@ Reposted: November 27, 2016 [corrections made]
 Language: English
 Character set encoding: UTF-8
 
-
 ** START OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
 ALEXANDRE DUMAS, PERE **
 
-
 Produced by John P. Roberts II, Roger Labbe, Scott David Gray, Sue
 Asscher, Anita Martin, David Muller and David Widger.
-
 
   *THE THREE MUSKETEERS*
 
@@ -34,10 +29,7 @@ Asscher, Anita Martin, David Muller and David Widger.
 
   _First Volume of the d’Artagnan Series_
 
-
-
 CONTENTS
-
 
   AUTHOR’S PREFACE
   1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
@@ -111,11 +103,7 @@ CONTENTS
   67 CONCLUSION
   EPILOGUE
 
-
-
-
 AUTHOR’S PREFACE
-
 
 In which it is proved that, notwithstanding their names’ ending in OS
 and IS, the heroes of the story which we are about to have the honor to
@@ -200,11 +188,7 @@ pleasure or the ENNUI he may experience.
 
 This being understood, let us proceed with our history.
 
-
-
-
 1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
-
 
 On the first Monday of the month of April, 1625, the market town of
 Meung, in which the author of ROMANCE OF THE ROSE was born, appeared to
@@ -402,4 +386,13 @@ you, sir, tell me what you are laughing at, and we will laugh together!”
 The gentleman raised his eyes slowly from the nag to his cavalier, as if
 he required some time to ascertain whether it could be to him that such
 strange reproaches were addressed; then, when he could not possibly
-entertain any doubt of the matter, his eyebrows slightly bent,
+entertain any doubt of the matter, his eyebrows slightly bent, and with
+an accent of irony and insolence impossible to be described, he replied
+to d’Artagnan, “I was not speaking to you, sir.”
+
+“But I am speaking to you!” replied the young man, additionally
+exasperated with this mixture of insolence and good manners, of
+politeness and scorn.
+
+The stranger looked at him again with a slight smile, and retiring from
+the window, came out of the hostelry with a slow step, 

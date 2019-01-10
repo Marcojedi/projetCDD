@@ -78,7 +78,6 @@ char * toChar(int entier) {
 
 /* execution du client */
 void client(char * dest, int pipefd[2]) {	
-    sleep(1);
     int c,i;
     char *S = "";
     char m;
