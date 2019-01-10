@@ -17,9 +17,10 @@ valeurs_t creerTableau(){
 dico_t ajoutMots(dico_t * dico, mot_t *mot){
     dico->lastIndex = ++dico->lastIndex;
     mot->index = dico->lastIndex;
+    mot->estDispo = false;
     dico->tabMots[dico->size] = *mot;
     dico->size++;
-    return *dico;
+    return *dico;   
 }
 
 /* fonction qui decrypte le message */
@@ -65,8 +66,10 @@ char * chercherDansDicoByIndex(dico_t *dico, int code){
             return strdup(dico->tabMots[i].chaine);
         }
     }
-    visionDico(dico);
-    return "\nErreur : Valeur non trouvée\n";
+
+    //modif
+    
+    return "ERROR : INDEX DOESN'T EXIST\n";
 }
 
 char * toChar(int entier) {
@@ -90,8 +93,7 @@ void client(char * dest, int pipefd[2]) {
     while (read(pipefd[0], &c, sizeof(c)) > 0) { // un octet est lu dans le tube    
         if (c <= 255) {
         	m = toChar(c);
-        	printf("%c", m);
-            fprintf(fw, "--> %c a ete decode \n",c);
+        	fprintf(fw,"%c", m);
         	if (strlen(strconcats(S,m)) == 1)	{
         		S = strconcats(S,m); 
         	} else {
@@ -101,7 +103,6 @@ void client(char * dest, int pipefd[2]) {
         			mot_t motToAdd;
 		            motToAdd.chaine = strconcats(S,m);
 		            ajoutMots(&dico,&motToAdd);
-                    fprintf(fw, "--> %s ajouter au dico \n",strconcats(S,m));
 		            S = strconcats("",m);
         		}    		
         	}
@@ -109,8 +110,7 @@ void client(char * dest, int pipefd[2]) {
             char * back = malloc(BUFSIZ*sizeof(char));
         	M = chercherDansDicoByIndex(&dico,c);
         	for (int j = 0; j < strlen(M); j++) {
-                printf("%c",M[j]);
-                fprintf(fw, "'%c' a ete decode! \n",M[j]);
+                fprintf(fw,"%c",M[j]);
                 strcpy(back,S);
                 S = strconcats(S,M[j]);
         		if (chercherDansDicos(&dico,S)) {
@@ -120,7 +120,6 @@ void client(char * dest, int pipefd[2]) {
 	        		mot_t motToAdd;
 			        motToAdd.chaine = strconcats(S,M[j]);
 			        ajoutMots(&dico,&motToAdd);
-                    fprintf(fw, "'%s' ajouter au dico \n",strconcats(S,M[j]));
                     S = strconcats("",M[j]);
 	        	}
         	}  	

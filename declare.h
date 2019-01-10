@@ -1,11 +1,13 @@
 #ifndef _DECLARE_
 #define _DECLARE_
+#include <stdbool.h>
 
 #define KEY 25
 
 typedef struct{
     int index;
     char * chaine;
+    bool estDispo;
 } mot_t;
 
 typedef struct{

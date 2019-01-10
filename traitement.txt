@@ -1,11 +1,11 @@
-			THE THREE MUSKETEERS
+		THE THREE MUSKETEERS
 
 
 This ebook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
 whatsoever. You may copy it, give it away or re-use it under the terms
 of the Project Gutenberg License included with this ebook or online at
-http://www.gutenberg.org/license. If you are not located in the United
+http://ww.gutenberg.org/license. If you are not located in the United
 States, you’ll have to check the laws of the country where you are
 located before using this ebook.
 
@@ -18,98 +18,98 @@ Language: English
 Character set encoding: UTF-8
 
 
-*** START OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
-ALEXANDRE DUMAS, PERE ***
+** START OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
+ALEXANDRE DUMAS, PERE **
 
 
-Produced by John P. Roberts III, Roger Labbe, Scott David Gray, Sue
+Produced by John P. Roberts II, Roger Labbe, Scott David Gray, Sue
 Asscher, Anita Martin, David Muller and David Widger.
 
 
-                         *THE THREE MUSKETEERS*
+  *THE THREE MUSKETEERS*
 
-                                  _By_
+  _By_
 
-                        *Alexandre Dumas, Pere*
+  *Alexandre Dumas, Pere*
 
-                _First Volume of the d’Artagnan Series_
+  _First Volume of the d’Artagnan Series_
 
 
 
 CONTENTS
 
 
-    AUTHOR’S PREFACE
-    1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
-    2 THE ANTECHAMBER OF M. DE TREVILLE
-    3 THE AUDIENCE
-    4 THE SHOULDER OF ATHOS, THE BALDRIC OF PORTHOS AND THE HANDKERCHIEF
-    OF ARAMIS
-    5 THE KING’S MUSKETEERS AND THE CARDINAL’S GUARDS
-    6 HIS MAJESTY KING LOUIS XIII
-    7 THE INTERIOR* OF THE MUSKETEERS
-    8 CONCERNING A COURT INTRIGUE
-    9 D’ARTAGNAN SHOWS HIMSELF
-    10 A MOUSETRAP IN THE SEVENTEENTH CENTURY
-    11 IN WHICH THE PLOT THICKENS
-    12 GEORGE VILLIERS, DUKE OF BUCKINGHAM
-    13 MONSIEUR BONACIEUX
-    14 THE MAN OF MEUNG
-    15 MEN OF THE ROBE AND MEN OF THE SWORD
-    16 IN WHICH M. SEGUIER, KEEPER OF THE SEALS, LOOKS MORE THAN ONCE
-    FOR THE BELL
-    17 BONACIEUX AT HOME
-    18 LOVER AND HUSBAND
-    19 PLAN OF CAMPAIGN
-    20 THE JOURNEY
-    21 THE COUNTESS DE WINTER
-    22 THE BALLET OF LA MERLAISON
-    23 THE RENDEZVOUS
-    24 THE PAVILION
-    25 PORTHOS
-    26 ARAMIS AND HIS THESIS
-    27 THE WIFE OF ATHOS
-    28 THE RETURN
-    29 HUNTING FOR THE EQUIPMENTS
-    30 D’ARTAGNAN AND THE ENGLISHMAN
-    31 ENGLISH AND FRENCH
-    32 A PROCURATOR’S DINNER
-    33 SOUBRETTE AND MISTRESS
-    34 IN WHICH THE EQUIPMENT OF ARAMIS AND PORTHOS IS TREATED OF
-    35 A GASCON A MATCH FOR CUPID
-    36 DREAM OF VENGEANCE
-    37 MILADY’S SECRET
-    38 HOW, WITHOUT INCOMMDING HIMSELF, ATHOS PROCURES HIS EQUIPMENT
-    39 A VISION
-    40 A TERRIBLE VISION
-    41 THE SEIGE OF LA ROCHELLE
-    42 THE ANJOU WINE
-    43 THE SIGN OF THE RED DOVECOT
-    44 THE UTILITY OF STOVEPIPES
-    45 A CONJUGAL SCENE
-    46 THE BASTION SAINT-GERVAIS
-    47 THE COUNCIL OF THE MUSKETEERS
-    48 A FAMILY AFFAIR
-    49 FATALITY
-    50 CHAT BETWEEN BROTHER AND SISTER
-    51 OFFICER
-    52 CAPTIVITY: THE FIRST DAY
-    53 CAPTIVITY: THE SECOND DAY
-    54 CAPTIVITY: THE THIRD DAY
-    55 CAPTIVITY: THE FOURTH DAY
-    56 CAPTIVITY: THE FIFTH DAY
-    57 MEANS FOR CLASSICAL TRAGEDY
-    58 ESCAPE
-    59 WHAT TOOK PLACE AT PORTSMOUTH AUGUST 23, 1628
-    60 IN FRANCE
-    61 THE CARMELITE CONVENT AT BETHUNE
-    62 TWO VARIETIES OF DEMONS
-    63 THE DROP OF WATER
-    64 THE MAN IN THE RED CLOAK
-    65 TRIAL
-    66 EXECUTION
-    67 CONCLUSION
-    EPILOGUE
+  AUTHOR’S PREFACE
+  1 THE THREE PRESENTS OF D’ARTAGNAN THE ELDER
+  2 THE ANTECHAMBER OF M. DE TREVILLE
+  3 THE AUDIENCE
+  4 THE SHOULDER OF ATHOS, THE BALDRIC OF PORTHOS AND THE HANDKERCHIEF
+  OF ARAMIS
+  5 THE KING’S MUSKETEERS AND THE CARDINAL’S GUARDS
+  6 HIS MAJESTY KING LOUIS XII
+  7 THE INTERIOR* OF THE MUSKETEERS
+  8 CONCERNING A COURT INTRIGUE
+  9 D’ARTAGNAN SHOWS HIMSELF
+  10 A MOUSETRAP IN THE SEVENTEENTH CENTURY
+  11 IN WHICH THE PLOT THICKENS
+  12 GEORGE VILLIERS, DUKE OF BUCKINGHAM
+  13 MONSIEUR BONACIEUX
+  14 THE MAN OF MEUNG
+  15 MEN OF THE ROBE AND MEN OF THE SWORD
+  16 IN WHICH M. SEGUIER, KEEPER OF THE SEALS, LOOKS MORE THAN ONCE
+  FOR THE BELL
+  17 BONACIEUX AT HOME
+  18 LOVER AND HUSBAND
+  19 PLAN OF CAMPAIGN
+  20 THE JOURNEY
+  21 THE COUNTESS DE WINTER
+  22 THE BALLET OF LA MERLAISON
+  23 THE RENDEZVOUS
+  24 THE PAVILION
+  25 PORTHOS
+  26 ARAMIS AND HIS THESIS
+  27 THE WIFE OF ATHOS
+  28 THE RETURN
+  29 HUNTING FOR THE EQUIPMENTS
+  30 D’ARTAGNAN AND THE ENGLISHMAN
+  31 ENGLISH AND FRENCH
+  32 A PROCURATOR’S DINNER
+  33 SOUBRETTE AND MISTRESS
+  34 IN WHICH THE EQUIPMENT OF ARAMIS AND PORTHOS IS TREATED OF
+  35 A GASCON A MATCH FOR CUPID
+  36 DREAM OF VENGEANCE
+  37 MILADY’S SECRET
+  38 HOW, WITHOUT INCOMMDING HIMSELF, ATHOS PROCURES HIS EQUIPMENT
+  39 A VISION
+  40 A TERRIBLE VISION
+  41 THE SEIGE OF LA ROCHELLE
+  42 THE ANJOU WINE
+  43 THE SIGN OF THE RED DOVECOT
+  44 THE UTILITY OF STOVEPIPES
+  45 A CONJUGAL SCENE
+  46 THE BASTION SAINT-GERVAIS
+  47 THE COUNCIL OF THE MUSKETEERS
+  48 A FAMILY AFFAIR
+  49 FATALITY
+  50 CHAT BETWEEN BROTHER AND SISTER
+  51 OFFICER
+  52 CAPTIVITY: THE FIRST DAY
+  53 CAPTIVITY: THE SECOND DAY
+  54 CAPTIVITY: THE THIRD DAY
+  55 CAPTIVITY: THE FOURTH DAY
+  56 CAPTIVITY: THE FIFTH DAY
+  57 MEANS FOR CLASSICAL TRAGEDY
+  58 ESCAPE
+  59 WHAT TOOK PLACE AT PORTSMOUTH AUGUST 23, 1628
+  60 IN FRANCE
+  61 THE CARMELITE CONVENT AT BETHUNE
+  62 TWO VARIETIES OF DEMONS
+  63 THE DROP OF WATER
+  64 THE MAN IN THE RED CLOAK
+  65 TRIAL
+  66 EXECUTION
+  67 CONCLUSION
+  EPILOGUE
 
 
 
@@ -134,7 +134,7 @@ work; and I shall satisfy myself with referring such of my readers as
 appreciate the pictures of the period to its pages. They will therein
 find portraits penciled by the hand of a master; and although these
 squibs may be, for the most part, traced upon the doors of barracks and
-the walls of cabarets, they will not find the likenesses of Louis XIII,
+the walls of cabarets, they will not find the likenesses of Louis XII,
 Anne of Austria, Richelieu, Mazarin, and the courtiers of the period,
 less faithful than in the history of M. Anquetil.
 
@@ -169,7 +169,7 @@ length found, guided by the counsels of our illustrious friend Paulin
 Paris, a manuscript in folio, endorsed 4772 or 4773, we do not recollect
 which, having for title, “Memoirs of the Comte de la Fere, Touching Some
 Events Which Passed in France Toward the End of the Reign of King Louis
-XIII and the Commencement of the Reign of King Louis XIV.”
+XII and the Commencement of the Reign of King Louis XIV.”
 
 It may be easily imagined how great was our joy when, in turning over
 this manuscript, our last hope, we found at the twentieth page the name
@@ -297,7 +297,7 @@ one word to add, and that is to propose an example to you--not mine, for
 I myself have never appeared at court, and have only taken part in
 religious wars as a volunteer; I speak of Monsieur de Treville, who was
 formerly my neighbor, and who had the honor to be, as a child, the
-play-fellow of our king, Louis XIII, whom God preserve! Sometimes their
+play-fellow of our king, Louis XII, whom God preserve! Sometimes their
 play degenerated into battles, and in these battles the king was not
 always the stronger. The blows which he received increased greatly his
 esteem and friendship for Monsieur de Treville. Afterward, Monsieur de
@@ -587,10 +587,10 @@ the stranger. “She will soon pass; she is already late. I had better get
 on horseback, and go and meet her. I should like, however, to know what
 this letter addressed to Treville contains.”
 
-    _*We are well aware that this term, milady, is only properly
-            used when followed by a family name. But we find it thus
-            in the manuscript, and we do not choose to take upon
-            ourselves to alter it._
+  _*We are well aware that this term, milady, is only properly
+  used when followed by a family name. But we find it thus
+  in the manuscript, and we do not choose to take upon
+  ourselves to alter it._
 
 And the stranger, muttering to himself, directed his steps toward the
 kitchen.
@@ -872,12 +872,12 @@ Henry died, the only inheritance he was able to leave his son was his
 sword and his motto. Thanks to this double gift and the spotless name
 that accompanied it, M. de Treville was admitted into the household of
 the young prince where he made such good use of his sword, and was so
-faithful to his motto, that Louis XIII, one of the good blades of his
+faithful to his motto, that Louis XII, one of the good blades of his
 kingdom, was accustomed to say that if he had a friend who was about to
 fight, he would advise him to choose as a second, himself first, and
 Treville next--or even, perhaps, before himself.
 
-Thus Louis XIII had a real liking for Treville--a royal liking, a
+Thus Louis XII had a real liking for Treville--a royal liking, a
 self-interested liking, it is true, but still a liking. At that unhappy
 period it was an important consideration to be surrounded by such men as
 Treville. Many might take for their device the epithet STRONG, which
@@ -892,18 +892,18 @@ or a Vitry. In short, up to this period nothing had been wanting to
 Treville but opportunity; but he was ever on the watch for it, and he
 faithfully promised himself that he would not fail to seize it by its
 three hairs whenever it came within reach of his hand. At last Louis
-XIII made Treville the captain of his Musketeers, who were to Louis XIII
+XII made Treville the captain of his Musketeers, who were to Louis XII
 in devotedness, or rather in fanaticism, what his Ordinaries had been to
-Henry III, and his Scotch Guard to Louis XI.
+Henry II, and his Scotch Guard to Louis XI.
 
 On his part, the cardinal was not behind the king in this respect. When
-he saw the formidable and chosen body with which Louis XIII had
+he saw the formidable and chosen body with which Louis XII had
 surrounded himself, this second, or rather this first king of France,
 became desirous that he, too, should have his guard. He had his
-Musketeers therefore, as Louis XIII had his, and these two powerful
+Musketeers therefore, as Louis XII had his, and these two powerful
 rivals vied with each other in procuring, not only from all the
 provinces of France, but even from all foreign states, the most
-celebrated swordsmen. It was not uncommon for Richelieu and Louis XIII
+celebrated swordsmen. It was not uncommon for Richelieu and Louis XII
 to dispute over their evening game of chess upon the merits of their
 servants. Each boasted the bearing and the courage of his own people.
 While exclaiming loudly against duels and brawls, they excited them
@@ -1313,7 +1313,7 @@ the Guards of Monsieur the Cardinal.”
 “Because he plainly perceives that his piquette* stands in need of being
 enlivened by a mixture of good wine.”
 
-    _*A watered liquor, made from the second pressing of the grape._
+  _*A watered liquor, made from the second pressing of the grape._
 
 The two Musketeers reddened to the whites of their eyes. D’Artagnan did
 not know where he was, and wished himself a hundred feet underground.
@@ -2559,7 +2559,7 @@ upon my apprenticeship, haven’t I?”
 
 
 
-6 HIS MAJESTY KING LOUIS XIII
+6 HIS MAJESTY KING LOUIS XII
 
 
 This affair made a great noise. M. de Treville scolded his Musketeers in
@@ -2654,7 +2654,7 @@ Musketeers?”
 “I say that it is probable that things have fallen out so, but I will
 not swear to it, sire. You know how difficult it is to discover the
 truth; and unless a man be endowed with that admirable instinct which
-causes Louis XIII to be named the Just--”
+causes Louis XII to be named the Just--”
 
 “You are right, Treville; but they were not alone, your Musketeers. They
 had a youth with them?”
@@ -2684,7 +2684,7 @@ civil war.”
 “And you say this young man behaved himself well? Tell me how,
 Treville--you know how I delight in accounts of war and fighting.”
 
-And Louis XIII twisted his mustache proudly, placing his hand upon his
+And Louis XII twisted his mustache proudly, placing his hand upon his
 hip.
 
 “Sire,” resumed Treville, “as I told you, Monsieur d’Artagnan is little
@@ -3041,7 +3041,7 @@ of his bones. The coming instant would in all probability decide the
 rest of his life. His eyes therefore were fixed in a sort of agony upon
 the door through which the king must enter.
 
-Louis XIII appeared, walking fast. He was in hunting costume covered
+Louis XII appeared, walking fast. He was in hunting costume covered
 with dust, wearing large boots, and holding a whip in his hand. At the
 first glance, d’Artagnan judged that the mind of the king was stormy.
 
@@ -3075,7 +3075,7 @@ greatest coolness, after his Majesty’s health.
 
 “Bad, monsieur, bad!” replied the king; “I am bored.”
 
-This was, in fact, the worst complaint of Louis XIII, who would
+This was, in fact, the worst complaint of Louis XII, who would
 sometimes take one of his courtiers to a window and say, “Monsieur
 So-and-so, let us weary ourselves together.”
 
@@ -3194,7 +3194,7 @@ de la Tremouille shall say?”
 
 “La Chesnaye,” said the king. “La Chesnaye!”
 
-Louis XIII’s confidential valet, who never left the door, entered in
+Louis XII’s confidential valet, who never left the door, entered in
 reply to the call.
 
 “La Chesnaye,” said the king, “let someone go instantly and find
@@ -3409,7 +3409,7 @@ the use he had best make of his share of the forty pistoles, Athos
 advised him to order a good repast at the Pomme-de-Pin, Porthos to
 engage a lackey, and Aramis to provide himself with a suitable mistress.
 
-    _*Domestic affairs, housekeeping_
+  _*Domestic affairs, housekeeping_
 
 The repast was carried into effect that very day, and the lackey waited
 at table. The repast had been ordered by Athos, and the lackey furnished
@@ -3530,7 +3530,7 @@ pockets, got together all his jewels, purses, aiguillettes, and gold
 chains, and offered them all to Porthos; but as to the sword, he said it
 was sealed to its place and should never quit it until its master should
 himself quit his lodgings. In addition to the sword, there was a
-portrait representing a nobleman of the time of Henry III, dressed with
+portrait representing a nobleman of the time of Henry II, dressed with
 the greatest elegance, and who wore the Order of the Holy Ghost; and
 this portrait had certain resemblances of lines with Athos, certain
 family likenesses which indicated that this great noble, a knight of the
@@ -3664,7 +3664,7 @@ Planchet, d’Artagnan’s valet, supported his good fortune nobly. He
 received thirty sous per day, and for a month he returned to his
 lodgings gay as a chaffinch, and affable toward his master. When the
 wind of adversity began to blow upon the housekeeping of the Rue des
-Fossoyeurs--that is to say, when the forty pistoles of King Louis XIII
+Fossoyeurs--that is to say, when the forty pistoles of King Louis XII
 were consumed or nearly so--he commenced complaints which Athos thought
 nauseous, Porthos indecent, and Aramis ridiculous. Athos counseled
 d’Artagnan to dismiss the fellow; Porthos was of the opinion that he
@@ -3743,7 +3743,7 @@ d’Artagnan.
 8 CONCERNING A COURT INTRIGUE
 
 
-In the meantime, the forty pistoles of King Louis XIII, like all other
+In the meantime, the forty pistoles of King Louis XII, like all other
 things of this world, after having had a beginning had an end, and after
 this end our four companions began to be somewhat embarrassed. At first,
 Athos supported the association for a time with his own means.
@@ -4282,7 +4282,7 @@ doing it.”
 “And did the mercer*,” rejoined Athos, “tell you, d’Artagnan, that the
 queen thought that Buckingham had been brought over by a forged letter?”
 
-    _*Haberdasher_
+  _*Haberdasher_
 
 “She is afraid so.”
 
@@ -7166,7 +7166,7 @@ in the very act, with all the proofs about her, the queen’s emissary to
 the exiled duchess, a Musketeer had dared to interrupt the course of
 justice violently, by falling sword in hand upon the honest men of the
 law, charged with investigating impartially the whole affair in order to
-place it before the eyes of the king--Louis XIII could not contain
+place it before the eyes of the king--Louis XII could not contain
 himself, and he made a step toward the queen’s apartment with that pale
 and mute indignation which, when it broke out, led this prince to the
 commission of the most pitiless cruelty. And yet, in all this, the
@@ -7179,7 +7179,7 @@ Informed of what had passed by the presence of the cardinal and the
 alteration in the king’s countenance, M. de Treville felt himself
 something like Samson before the Philistines.
 
-Louis XIII had already placed his hand on the knob of the door; at the
+Louis XII had already placed his hand on the knob of the door; at the
 noise of M. de Treville’s entrance he turned round. “You arrive in good
 time, monsieur,” said the king, who, when his passions were raised to a
 certain point, could not dissemble; “I have learned some fine things
@@ -7392,7 +7392,7 @@ Treville says. Besides,” added he, lowering his voice and looking with a
 suppliant air at the cardinal, “let us give them apparent security; that
 is policy.”
 
-This policy of Louis XIII made Richelieu smile.
+This policy of Louis XII made Richelieu smile.
 
 “Order it as you please, sire; you possess the right of pardon.”
 
@@ -7450,7 +7450,7 @@ THE BELL
 
 
 It is impossible to form an idea of the impression these few words made
-upon Louis XIII. He grew pale and red alternately; and the cardinal saw
+upon Louis XII. He grew pale and red alternately; and the cardinal saw
 at once that he had recovered by a single blow all the ground he had
 lost.
 
@@ -7521,7 +7521,7 @@ terrible disclosure, what a fearful scandal!”
 “But as he exposed himself like a vagabond or a thief, he should have
 been--”
 
-Louis XIII stopped, terrified at what he was about to say, while
+Louis XII stopped, terrified at what he was about to say, while
 Richelieu, stretching out his neck, waited uselessly for the word which
 had died on the lips of the king.
 
@@ -7604,7 +7604,7 @@ reign between you and the Queen of France.”
 “Very well, Cardinal, very well; but, meantime, send for Monsieur the
 Keeper of the Seals. I will go to the queen.”
 
-And Louis XIII, opening the door of communication, passed into the
+And Louis XII, opening the door of communication, passed into the
 corridor which led from his apartments to those of Anne of Austria.
 
 The queen was in the midst of her women--Mme. de Guitaut, Mme. de Sable,
@@ -7976,7 +7976,7 @@ diamond studs become her.”
 
 
 It was the second time the cardinal had mentioned these diamond studs to
-the king. Louis XIII was struck with this insistence, and began to fancy
+the king. Louis XII was struck with this insistence, and began to fancy
 that this recommendation concealed some mystery.
 
 More than once the king had been humiliated by the cardinal, whose
@@ -7991,8 +7991,8 @@ infinitely in the eyes of his minister.
 He went then to the queen, and according to custom accosted her with
 fresh menaces against those who surrounded her. Anne of Austria lowered
 her head, allowed the torrent to flow on without replying, hoping that
-it would cease of itself; but this was not what Louis XIII meant. Louis
-XIII wanted a discussion from which some light or other might break,
+it would cease of itself; but this was not what Louis XII meant. Louis
+XII wanted a discussion from which some light or other might break,
 convinced as he was that the cardinal had some afterthought and was
 preparing for him one of those terrible surprises which his Eminence was
 so skillful in getting up. He arrived at this end by his persistence in
@@ -8013,7 +8013,7 @@ Hotel de Ville. I wish, in order to honor our worthy aldermen, you
 should appear in ceremonial costume, and above all, ornamented with the
 diamond studs which I gave you on your birthday. That is my answer.”
 
-The answer was terrible. Anne of Austria believed that Louis XIII knew
+The answer was terrible. Anne of Austria believed that Louis XII knew
 all, and that the cardinal had persuaded him to employ this long
 dissimulation of seven or eight days, which, likewise, was
 characteristic. She became excessively pale, leaned her beautiful hand
@@ -8043,7 +8043,7 @@ you.”
 
 “But on what day will this ball take place?” asked Anne of Austria.
 
-Louis XIII felt instinctively that he ought not to reply to this
+Louis XII felt instinctively that he ought not to reply to this
 question, the queen having put it in an almost dying voice.
 
 “Oh, very shortly, madame,” said he; “but I do not precisely recollect
@@ -10699,10 +10699,10 @@ softly in a manner agreed upon between him and his lackey. Planchet*,
 whom he had sent home two hours before from the Hotel de Ville, telling
 him to sit up for him, opened the door for him.
 
-    _*The reader may ask, “How came Planchet here?” when he was left
-            “stiff as a rush” in London. In the intervening time
-            Buckingham perhaps sent him to Paris, as he did the
-            horses._
+  _*The reader may ask, “How came Planchet here?” when he was left
+  “stiff as a rush” in London. In the intervening time
+  Buckingham perhaps sent him to Paris, as he did the
+  horses._
 
 “Has anyone brought a letter for me?” asked d’Artagnan, eagerly.
 
@@ -11808,8 +11808,8 @@ monsieur, the visit I received in your absence.”
 “He came, he said, on the part of his Eminence, who wished you well, and
 to beg you to follow him to the Palais-Royal*.”
 
-    _*It was called the Palais-Cardinal before Richelieu gave it to
-            the King._
+  _*It was called the Palais-Cardinal before Richelieu gave it to
+  the King._
 
 “What did you answer him?”
 
@@ -12149,7 +12149,7 @@ named Madame Coquenard, who, although she is at least fifty, still gives
 herself jealous airs. It struck me as very odd that a princess should
 live in the Rue aux Ours.”
 
-    _*Attorney_
+  _*Attorney_
 
 “But how do you know all this?”
 
@@ -13427,7 +13427,7 @@ genealogy, their alliances, their coats of arms, and the origin of them.
 Etiquette had no minutiae unknown to him. He knew what were the rights
 of the great land owners. He was profoundly versed in hunting and
 falconry, and had one day when conversing on this great art astonished
-even Louis XIII himself, who took a pride in being considered a past
+even Louis XII himself, who took a pride in being considered a past
 master therein.
 
 Like all the great nobles of that period, Athos rode and fenced to
@@ -14754,7 +14754,7 @@ much have you left of your hundred pistoles, d’Artagnan?”
 “You think so?”
 
 “PARDIEU!”
-       “Ah, that is true. I recollect.”
+  “Ah, that is true. I recollect.”
 
 “Then I paid the host six.”
 
@@ -19450,7 +19450,7 @@ livery had waiting for them.
 
 
 The Siege of La Rochelle was one of the great political events of the
-reign of Louis XIII, and one of the great military enterprises of the
+reign of Louis XII, and one of the great military enterprises of the
 cardinal. It is, then, interesting and even necessary that we should say
 a few words about it, particularly as many details of this siege are
 connected in too important a manner with the story we have undertaken to
@@ -20755,8 +20755,8 @@ voice which made the Musketeer start.
 awaits you at the mouth of Charente, at Fort La Pointe*. He will set
 sail tomorrow morning.”
 
-    _*Fort La Pointe, or Fort Vasou, was not built until 1672,
-            nearly 50 years later._
+  _*Fort La Pointe, or Fort Vasou, was not built until 1672,
+  nearly 50 years later._
 
 “I must go thither tonight?”
 
@@ -23917,7 +23917,7 @@ appear--thanks to the precautions taken, and above all to the dyke,
 which prevented the entrance of any vessel into the besieged city--the
 blockade might last a long time yet. This was a great affront to the
 king’s army, and a great inconvenience to the cardinal, who had no
-longer, it is true, to embroil Louis XIII with Anne of Austria--for that
+longer, it is true, to embroil Louis XII with Anne of Austria--for that
 affair was over--but he had to adjust matters for M. de Bassompierre,
 who was embroiled with the Duc d’Angouleme.
 
@@ -27881,7 +27881,7 @@ La Rochelle.
 Let your Eminence be reassured. His Grace the Duke of Buckingham WILL
 NOT SET OUT for France.
 
-“MILADY DE ----
+“MILADY DE --
 
 “BOULOGNE, evening of the twenty-fifth.
 
@@ -30315,7 +30315,7 @@ the queen.
 
 The joy of the king was lively. He did not even give himself the trouble
 to dissemble, and displayed it with affectation before the queen. Louis
-XIII, like every weak mind, was wanting in generosity.
+XII, like every weak mind, was wanting in generosity.
 
 But the king soon again became dull and indisposed; his brow was not one
 of those that long remain clear. He felt that in returning to camp he
@@ -30412,7 +30412,7 @@ Besides, this return offered him the advantage of watching his prisoner.
 They resumed their route.
 
 On the morrow, at three o’clock in the afternoon, they arrived at
-Surgeres. The cardinal there awaited Louis XIII. The minister and the
+Surgeres. The cardinal there awaited Louis XII. The minister and the
 king exchanged numerous caresses, felicitating each other upon the
 fortunate chance which had freed France from the inveterate enemy who
 set all Europe against her. After which, the cardinal, who had been
@@ -30797,10 +30797,10 @@ expense of his generous Eminence.
 
 
 
-                                  ――――
+  ――――
 
-*** END OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
-ALEXANDRE DUMAS, PERE ***
+** END OF THIS PROJECT GUTENBERG EBOOK THE THREE MUSKETEERS, BY
+ALEXANDRE DUMAS, PERE **
 
 
 
@@ -30810,7 +30810,7 @@ A Word from Project Gutenberg
 
 We will update this book if we find any errors.
 
-This book can be found under: http://www.gutenberg.org/ebooks/1257
+This book can be found under: http://ww.gutenberg.org/ebooks/1257
 
 Creating the works from print editions not protected by U.S. copyright
 law means that no one owns a United States copyright in these works, so
@@ -30841,7 +30841,7 @@ distribution of electronic works, by using or distributing this work (or
 any other work associated in any way with the phrase “Project
 Gutenberg”), you agree to comply with all the terms of the Full Project
 Gutenberg™ License available with this file or online at
-http://www.gutenberg.org/license.
+http://ww.gutenberg.org/license.
 
 
 Section 1. General Terms of Use & Redistributing Project Gutenberg™
@@ -30904,14 +30904,14 @@ which the phrase “Project Gutenberg” appears, or with which the phrase
 “Project Gutenberg” is associated) is accessed, displayed, performed,
 viewed, copied or distributed:
 
-    This eBook is for the use of anyone anywhere in the United
-    States and most other parts of the world at no cost and with
-    almost no restrictions whatsoever. You may copy it, give it away
-    or re-use it under the terms of the Project Gutenberg License
-    included with this eBook or online at http://www.gutenberg.org .
-    If you are not located in the United States, you’ll have to
-    check the laws of the country where you are located before using
-    this ebook.
+  This eBook is for the use of anyone anywhere in the United
+  States and most other parts of the world at no cost and with
+  almost no restrictions whatsoever. You may copy it, give it away
+  or re-use it under the terms of the Project Gutenberg License
+  included with this eBook or online at http://ww.gutenberg.org .
+  If you are not located in the United States, you’ll have to
+  check the laws of the country where you are located before using
+  this ebook.
 
 *1.E.2.* If an individual Project Gutenberg™ electronic work is derived
 from texts not protected by U.S. copyright law (does not contain a
@@ -30947,7 +30947,7 @@ word processing or hypertext form. However, if you provide access to or
 distribute copies of a Project Gutenberg™ work in a format other than
 “Plain Vanilla ASCII” or other format used in the official version
 posted on the official Project Gutenberg™ web site
-(http://www.gutenberg.org), you must, at no additional cost, fee or
+(http://ww.gutenberg.org), you must, at no additional cost, fee or
 expense to the user, provide a copy, a means of exporting a copy, or a
 means of obtaining a copy upon request, of the work in its original
 “Plain Vanilla ASCII” or other form. Any alternate format must include
@@ -30962,32 +30962,32 @@ access to or distributing Project Gutenberg™ electronic works provided
 that
 
   - You pay a royalty fee of 20% of the gross profits you derive from
-    the use of Project Gutenberg™ works calculated using the method you
-    already use to calculate your applicable taxes. The fee is owed to
-    the owner of the Project Gutenberg™ trademark, but he has agreed to
-    donate royalties under this paragraph to the Project Gutenberg
-    Literary Archive Foundation. Royalty payments must be paid within 60
-    days following each date on which you prepare (or are legally
-    required to prepare) your periodic tax returns. Royalty payments
-    should be clearly marked as such and sent to the Project Gutenberg
-    Literary Archive Foundation at the address specified in Section 4,
-    “Information about donations to the Project Gutenberg Literary
-    Archive Foundation.”
+  the use of Project Gutenberg™ works calculated using the method you
+  already use to calculate your applicable taxes. The fee is owed to
+  the owner of the Project Gutenberg™ trademark, but he has agreed to
+  donate royalties under this paragraph to the Project Gutenberg
+  Literary Archive Foundation. Royalty payments must be paid within 60
+  days following each date on which you prepare (or are legally
+  required to prepare) your periodic tax returns. Royalty payments
+  should be clearly marked as such and sent to the Project Gutenberg
+  Literary Archive Foundation at the address specified in Section 4,
+  “Information about donations to the Project Gutenberg Literary
+  Archive Foundation.”
 
   - You provide a full refund of any money paid by a user who notifies
-    you in writing (or by e-mail) within 30 days of receipt that s/he
-    does not agree to the terms of the full Project Gutenberg™ License.
-    You must require such a user to return or destroy all copies of the
-    works possessed in a physical medium and discontinue all use of and
-    all access to other copies of Project Gutenberg™ works.
+  you in writing (or by e-mail) within 30 days of receipt that s/he
+  does not agree to the terms of the full Project Gutenberg™ License.
+  You must require such a user to return or destroy all copies of the
+  works possessed in a physical medium and discontinue all use of and
+  all access to other copies of Project Gutenberg™ works.
 
   - You provide, in accordance with paragraph 1.F.3, a full refund of
-    any money paid for a work or a replacement copy, if a defect in the
-    electronic work is discovered and reported to you within 90 days of
-    receipt of the work.
+  any money paid for a work or a replacement copy, if a defect in the
+  electronic work is discovered and reported to you within 90 days of
+  receipt of the work.
 
   - You comply with all other terms of this agreement for free
-    distribution of Project Gutenberg™ works.
+  distribution of Project Gutenberg™ works.
 
 
 *1.E.9.* If you wish to charge a fee or distribute a Project Gutenberg™
@@ -31078,7 +31078,7 @@ Literary Archive Foundation was created to provide a secure and
 permanent future for Project Gutenberg™ and future generations. To learn
 more about the Project Gutenberg Literary Archive Foundation and how
 your efforts and donations can help, see Sections 3 and 4 and the
-Foundation web page at http://www.pglaf.org .
+Foundation web page at http://ww.pglaf.org .
 
 
 Section 3. Information about the Project Gutenberg Literary Archive
@@ -31090,7 +31090,7 @@ The Project Gutenberg Literary Archive Foundation is a non profit
 of Mississippi and granted tax exempt status by the Internal Revenue
 Service. The Foundation’s EIN or federal tax identification number is
 64-6221541. Its 501(c)(3) letter is posted at
-http://www.gutenberg.org/fundraising/pglaf . Contributions to the
+http://ww.gutenberg.org/fundraising/pglaf . Contributions to the
 Project Gutenberg Literary Archive Foundation are tax deductible to the
 full extent permitted by U.S.  federal laws and your state’s laws.
 
@@ -31100,13 +31100,13 @@ and employees are scattered throughout numerous locations. Its business
 office is located at 809 North 1500 West, Salt Lake City, UT 84116,
 (801) 596-1887, email business@pglaf.org. Email contact links and up to
 date contact information can be found at the Foundation’s web site and
-official page at http://www.pglaf.org
+official page at http://ww.pglaf.org
 
 For additional contact information:
 
-    Dr. Gregory B. Newby
-    Chief Executive and Director
-    gbnewby@pglaf.org
+  Dr. Gregory B. Newby
+  Chief Executive and Director
+  gbnewby@pglaf.org
 
 
 Section 4. Information about Donations to the Project Gutenberg Literary
@@ -31118,7 +31118,7 @@ public support and donations to carry out its mission of increasing the
 number of public domain and licensed works that can be freely
 distributed in machine readable form accessible by the widest array of
 equipment including outdated equipment. Many small donations ($1 to
-$5,000) are particularly important to maintaining tax exempt status with
+$5,00) are particularly important to maintaining tax exempt status with
 the IRS.
 
 The Foundation is committed to complying with the laws regulating
@@ -31128,7 +31128,7 @@ considerable effort, much paperwork and many fees to meet and keep up
 with these requirements. We do not solicit donations in locations where
 we have not received written confirmation of compliance. To SEND
 DONATIONS or determine the status of compliance for any particular state
-visit http://www.gutenberg.org/fundraising/donate
+visit http://ww.gutenberg.org/fundraising/donate
 
 While we cannot and do not solicit contributions from states where we
 have not met the solicitation requirements, we know of no prohibition
@@ -31142,7 +31142,7 @@ the United States. U.S. laws alone swamp our small staff.
 Please check the Project Gutenberg Web pages for current donation
 methods and addresses. Donations are accepted in a number of other ways
 including checks, online payments and credit card donations. To donate,
-please visit: http://www.gutenberg.org/fundraising/donate
+please visit: http://ww.gutenberg.org/fundraising/donate
 
 
 Section 5. General Information About Project Gutenberg™ electronic
@@ -31157,22 +31157,4 @@ Gutenberg™ eBooks with only a loose network of volunteer support.
 Project Gutenberg™ eBooks are often created from several printed
 editions, all of which are confirmed as not protected by copyright in
 the U.S. unless a copyright notice is included. Thus, we do not necessarily
-keep eBooks in compliance with any particular paper edition.
-
-Each eBook is in a subdirectory of the same number as the eBook’s eBook
-number, often in several formats including plain vanilla ASCII,
-compressed (zipped), HTML and others.
-
-Corrected _editions_ of our eBooks replace the old file and take over
-the old filename and etext number. The replaced older file is renamed.
-_Versions_ based on separate sources are treated as new eBooks receiving
-new filenames and etext numbers.
-
-Most people start at our Web site which has the main PG search facility:
-
-    http://www.gutenberg.org
-
-This Web site includes information about Project Gutenberg™, including
-how to make donations to the Project Gutenberg Literary Archive
-Foundation, how to help produce our new eBooks, and how to subscribe to
-our email newsletter to hear about new eBooks.
+keep e
