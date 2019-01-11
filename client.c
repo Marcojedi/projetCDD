@@ -8,21 +8,6 @@
 #include "string.h"
 #include "client.h"
 
-valeurs_t creerTableau(){
-    valeurs_t tableau;
-    tableau.size = 0; 
-    return tableau;
-}
-
-dico_t ajoutMots(dico_t * dico, mot_t *mot){
-    dico->lastIndex = ++dico->lastIndex;
-    mot->index = dico->lastIndex;
-    mot->estDispo = false;
-    dico->tabMots[dico->size] = *mot;
-    dico->size++;
-    return *dico;   
-}
-
 /* fonction qui decrypte le message */
 int decrypterXOR(int code){
     code = code ^ KEY;
@@ -66,8 +51,6 @@ char * chercherDansDicoByIndex(dico_t *dico, int code){
             return strdup(dico->tabMots[i].chaine);
         }
     }
-
-    //modif
     
     return "ERROR : INDEX DOESN'T EXIST\n";
 }
@@ -78,6 +61,7 @@ char * toChar(int entier) {
 
 /* execution du client */
 void client(char * dest, int pipefd[2]) {	
+     close(pipefd[1]);  
     int c,i;
     char *S = "";
     char m;
@@ -85,46 +69,53 @@ void client(char * dest, int pipefd[2]) {
     
     FILE *fw = fopen("decoding.txt","w");
     dico_t dico = creerDico();
-    valeurs_t tableau = creerTableau();
       
-    close(pipefd[1]);          // Close unused write end
+           // Close unused write end
     printf("CLIENT\n------\n");
     while (read(pipefd[0], &c, sizeof(c)) > 0) { // un octet est lu dans le tube    
-        if (c <= 255) {
-        	m = toChar(c);
-        	fprintf(fw,"%c", m);
-        	if (strlen(strconcats(S,m)) == 1)	{
-        		S = strconcats(S,m); 
-        	} else {
-        		if (chercherDansDicos(&dico,strconcats(S,m))==true) {
-        			S = strconcats(S,m);
-        		} else {
-        			mot_t motToAdd;
-		            motToAdd.chaine = strconcats(S,m);
-		            ajoutMots(&dico,&motToAdd);
-		            S = strconcats("",m);
-        		}    		
-        	}
-        } else {
-            char * back = malloc(BUFSIZ*sizeof(char));
-        	M = chercherDansDicoByIndex(&dico,c);
-        	for (int j = 0; j < strlen(M); j++) {
-                fprintf(fw,"%c",M[j]);
-                strcpy(back,S);
-                S = strconcats(S,M[j]);
-        		if (chercherDansDicos(&dico,S)) {
-                    printf(""); 
-	        	} else {
-                    strcpy(S,back);
-	        		mot_t motToAdd;
-			        motToAdd.chaine = strconcats(S,M[j]);
-			        ajoutMots(&dico,&motToAdd);
-                    S = strconcats("",M[j]);
-	        	}
-        	}  	
+        if(dico.size<BUFSIZ-2){
+            if (c <= 255) {
+                m = toChar(c);
+                fprintf(fw,"%c", m);
+                if (strlen(strconcats(S,m)) == 1)	{
+                    S = strconcats(S,m); 
+                } else { // OK
+                    if (chercherDansDicos(&dico,strconcats(S,m))==true) {
+                        S = strconcats(S,m);
+                    } else { //OK
+                        mot_t motToAdd;
+                        motToAdd.chaine = strconcats(S,m);
+                        ajoutMots(&dico,&motToAdd); //--->PROBLEME
+                        S = strconcats("",m);
+                    }   	
+                }
+            } else {
+                char * back = malloc(BUFSIZ*sizeof(char));
+                M = chercherDansDicoByIndex(&dico,c);
+                for (int j = 0; j < strlen(M); j++) {
+                    fprintf(fw,"%c",M[j]);
+                    strcpy(back,S);
+                    S = strconcats(S,M[j]);
+                    if (chercherDansDicos(&dico,S)) {
+                        printf(""); 
+                    } else {
+                        strcpy(S,back);
+                        mot_t motToAdd;
+                        motToAdd.chaine = strconcats(S,M[j]);
+                        ajoutMots(&dico,&motToAdd);
+                        S = strconcats("",M[j]);
+                    }
+                }  	
+                free(back);
+            }
+        }
+        else{
+            m = toChar(c);
+            fprintf(fw,"%c", m);
         }
     }
     fclose(fw);
+    close(pipefd[0]);
     printf("\n");
     exit(EXIT_SUCCESS);
 }

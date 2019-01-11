@@ -7,13 +7,13 @@
 #include "declare.h"
 #include "serveur.h"
 
-dico_t ajoutMot(dico_t * dico, mot_t *mot){
+void ajoutMots(dico_t * dico, mot_t *mot){
     dico->lastIndex = ++dico->lastIndex;
     mot->index = dico->lastIndex;
     mot->estDispo = false;
     dico->tabMots[dico->size] = *mot;
+    printf("Taille du dico : %d | Mot ajouté : %s | Index : %d\n",dico->size,mot->chaine,dico->lastIndex);
     dico->size++;
-    return *dico;
 }
 
 dico_t creerDico(){
@@ -75,14 +75,14 @@ char * toString(char c){
 void emettreCode(dico_t *dico,char * S,int pipefd[2],FILE *fw){
   int code;
     if(strlen(S)==1){
-        code = S[0];
+        code = (int)S[0];
         fprintf(fw, "emit %d == '%s' \n", code,S);
         write(pipefd[1], &code, sizeof(code));
     }
     else{
         for(int i=0; i<dico->size;i++){
             if(strcmp(dico->tabMots[i].chaine,S)==0){
-                code = dico->tabMots[i].index;
+                code = (int)dico->tabMots[i].index;
                 fprintf(fw, "emit %d == '%s' \n", code,S);
                 write(pipefd[1], &code, sizeof(code));            
             }
@@ -98,7 +98,7 @@ void copyDeleteRedoncance(char * src){
     fd = fopen(src,"r"); if(fd==NULL) perror("Erreur ouverture, fichier introuvable");
     char lastValue = "";int count=0;
     long saveCursorPosition;
-   while ((m = fgetc(fd)) != EOF){
+    while ((m = fgetc(fd)) != EOF){
         if((lastValue==m)&&(count>=1)){
             fprintf(fw,"");
         }
@@ -112,7 +112,8 @@ void copyDeleteRedoncance(char * src){
         lastValue = m;
         saveCursorPosition = ftell(fd);
     }
-    printf("%d\n",saveCursorPosition);
+    fclose(fw);
+    fclose(fd);
 }
 
 /* execution du serveur */
@@ -125,11 +126,10 @@ void serveur(char *src,int pipefd[2]){
     char m;
     char * S = "";
     char * T = "";
-    FILE *fw = fopen("coding.txt", "a");
-    FILE * fd;
+    FILE *fw = fopen("coding.txt", "w");
     copyDeleteRedoncance(src);
     //debut algorithme
-    fd = fopen("traitement.txt","r"); if(fd==NULL) perror("Erreur ouverture, fichier introuvable");
+    FILE * fd = fopen("traitement.txt","r"); if(fd==NULL) perror("Erreur ouverture, fichier introuvable");
     printf("SERVEUR\n-------\n");
     while ((m = fgetc(fd)) != EOF){
         if(dico.size<BUFSIZ-2){                                                                                                                                                                                                                                                                                                                                                                                                                     
@@ -140,20 +140,18 @@ void serveur(char *src,int pipefd[2]){
                 emettreCode(&dico,S,pipefd,fw);
                 mot_t motToAdd;
                 motToAdd.chaine = strconcat(S,m);
-                ajoutMot(&dico,&motToAdd);
+                ajoutMots(&dico,&motToAdd);
                 S = strconcat("",m);
             } 
         }else{
-            //S = strconcat("",m);
-            int code = m;
-            fprintf(fw, "emit %d == '%c' \n", code,m);
+            int code = (int)m; 
+            fprintf(fw, "emit %d == '%c' emit post dico \n", code,m);
             write(pipefd[1], &code, sizeof(code));  
         }
-        //printf("SERVER TALKING || %d == '%s'\n\n",dico.tabMots[dico.size-1].index,dico.tabMots[dico.size-1].chaine);
     }
-    emettreCode(&dico,S,pipefd,fw);  
-    fclose(fw);
+    emettreCode(&dico,S,pipefd,fw);   
     fclose(fd);
+    fclose(fw);
     close(pipefd[1]);
     wait(NULL);
     exit(EXIT_SUCCESS);

@@ -5,7 +5,6 @@
 #include "declare.h"
 
 dico_t creerDico();
-dico_t ajoutMot(dico_t * dico, mot_t *mot);
 char * strconcat(char * chaine,char c);
 bool chercherDansDico(dico_t *dico,char * chaine);
 int crypterXOR(int code);

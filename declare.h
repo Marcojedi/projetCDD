@@ -21,8 +21,6 @@ typedef struct{
     int tableauValeurs[BUFSIZ];
 } valeurs_t;
 
-extern dico_t ajoutMot(dico_t * dico, mot_t *mot);
+extern void ajoutMot(dico_t * dico, mot_t *mot);
 extern dico_t creerDico();
-extern valeurs_t creerTableau();
-
 #endif
