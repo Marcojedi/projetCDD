@@ -22,7 +22,7 @@ char * strconcats(char * chaine,char c){
     strcpy(retour,chaine);
     retour[len] = c;
     retour[len+1] = '\0';
-    return retour;
+    return strdup(retour);
 }
 
 /* fonction qui verifie si la chaine trouvée est presente dans le dictionnaire */
@@ -116,6 +116,7 @@ void client(char * dest, int pipefd[2]) {
     }
     fclose(fw);
     close(pipefd[0]);
+    printf("Decodeur execute avec succès voir le fichier decoding.txt generer pour le detail\n");
     printf("\n");
     exit(EXIT_SUCCESS);
 }

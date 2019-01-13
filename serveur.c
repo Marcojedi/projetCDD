@@ -12,7 +12,7 @@ void ajoutMots(dico_t * dico, mot_t *mot){
     mot->index = dico->lastIndex;
     mot->estDispo = false;
     dico->tabMots[dico->size] = *mot;
-    printf("Taille du dico : %d | Mot ajouté : %s | Index : %d\n",dico->size,mot->chaine,dico->lastIndex);
+    //printf("Taille du dico : %d | Mot ajouté : %s | Index : %d\n",dico->size,mot->chaine,dico->lastIndex);
     dico->size++;
 }
 
@@ -31,7 +31,7 @@ char * strconcat(char * chaine,char c){
     strcpy(retour,chaine);
     retour[len] = c;
     retour[len+1] = '\0';
-    return retour;
+    return strdup(retour);
 }
 
 /* fonction qui verifie si la chaine trouvée est presente dans le dictionnaire */
@@ -153,6 +153,7 @@ void serveur(char *src,int pipefd[2]){
     fclose(fd);
     fclose(fw);
     close(pipefd[1]);
+    printf("Codeur execute avec succès voir le fichier coding.txt generer pour le detail\n");
     wait(NULL);
     exit(EXIT_SUCCESS);
 }
